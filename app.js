@@ -85,7 +85,7 @@ app.post('/generate-content', async (req, res) => {
         return res.status(400).json({ error: 'Title is required and must be a string.' });
     }
 
-    const prompt = `Gunakan bahasa Gaul dan buat pembelajaran tentang: `;
+    const prompt = `Ajari saya dengan profesional tentang: `;
     const database = readDatabase();
 
     const existingTitles = database.title_course.map(t => ({ title: t.title, id_title_course: t.id_title_course }));
