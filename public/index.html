@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursus Online Bersama AI</title>
+    <link rel="icon" href="/logo.png" type="image/png"> <!-- Ganti dengan path favicon Anda -->
+    <meta name="description" content="Ikuti kursus online bersama AI untuk meningkatkan keterampilan dan pengetahuan Anda dengan cara yang interaktif dan menyenangkan.">
+    <meta name="keywords" content="kursus online, AI, pembelajaran, pendidikan, keterampilan, interaktif">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
+    <style>
+		pre {
+				background-color: #f5f5f5;
+				border: 1px solid #ddd;
+				border-radius: 4px;
+				padding: 10px;
+				overflow-x: auto;
+				white-space: pre;
+				word-wrap: normal;
+			}
+
+		code {
+			font-family: monospace;
+		}
+		
+		h1, h2, h3, h4, h5, h6 {
+			margin: 0 !important;
+			font-weight: bold !important;
+		}
+
+		h1 {
+			font-size: 2.5rem !important;
+			color: black !important;
+		}
+
+		h2 {
+			font-size: 2rem !important;
+			color: black !important;
+		}
+
+		h3 {
+			font-size: 1.75rem !important;
+			color: black !important;
+		}
+
+		h4 {
+			font-size: 1.5rem !important;
+			color: black !important;
+		}
+
+		h5 {
+			font-size: 1.25rem !important;
+			color: black !important;
+		}
+
+		h6 {
+			font-size: 1rem !important;
+			color: black !important;
+		}
+
+		p {
+			margin: 0 0 1.5rem !important;
+			font-size: 1rem !important;
+			color: #1f1f1f !important;
+		}
+
+		a {
+			color: #3498db !important;
+			text-decoration: none !important;
+			transition: color 0.3s !important;
+		}
+
+		a:hover {
+			color: #2980b9 !important;
+		}
+
+		blockquote {
+			margin: 0 0 1.5rem !important;
+			padding: 1rem !important;
+			border-left: 4px solid #3498db !important;
+			background-color: #f1f1f1 !important;
+			font-style: italic !important;
+			color: #555 !important;
+		}
+
+		ul, ol {
+			margin: 0 0 1.5rem !important;
+			padding-left: 1.5rem !important;
+		}
+
+		small {
+			font-size: 0.85rem !important;
+			color: #999 !important;
+		}
+
+		strong {
+			font-weight: bold !important;
+			color: black !important;
+		}
+
+		em {
+			font-style: italic !important;
+		}
+
+		@media (max-width: 768px) {
+			h1 {
+				font-size: 2rem !important;
+			}
+			h2 {
+				font-size: 1.75rem !important;
+			}
+			h3 {
+				font-size: 1.5rem !important;
+			}
+			p {
+				font-size: 0.95rem !important;
+			}
+		}
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container min-h-screen bg-white mx-auto p-6 max-w-6xl m-auto">
+        
+		<div class="flex flex-col gap-2 justify-center items-center pb-9 max-w-xl m-auto">
+			<img class="h-36 w-36" src="logo.png" alt="logo">
+			<h1 class="text-4xl text-center font-bold">Kursus Online Bersama AI</h1>
+			<p class="text-center">
+				Kursus Online Bersama AI adalah program pembelajaran inovatif yang menggabungkan kecerdasan buatan dengan pengalaman belajar yang interaktif.
+			</p>
+        </div>
+		
+        <div class="flex justify-center items-center gap-2">
+            <input type="text" id="search-query" placeholder="Cari Kursus Anda..." class="w-full md:max-w-sm p-2 rounded border bg-gray-50 focus:outline-none">
+            <button id="search-button" class="px-4 py-3 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Telusuri</button>
+        </div>
+
+        <div class="flex gap-2 justify-center items-center mt-4 hidden">
+			<h1 class="text-2xl text-center font-bold">Rekomendasi Kursus</h1>
+            <div id="query-display" class="text-2xl text-center font-bold"></div>
+        </div>
+        
+        <ul id="course-list" class="grid grid-cols-1 md:grid-cols-2 gap-2 my-4" aria-live="polite"></ul>
+
+        <div class="flex justify-center items-center gap-2">
+            <input type="text" id="title-input" placeholder="Judul kursus dari daftar..." readonly class="w-full md:max-w-sm p-2 rounded border bg-gray-100 focus:outline-none" />
+            <button id="generate-button" class="ml-2 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Dapatkan</button>
+        </div>
+
+        <h2 class="text-2xl text-center font-bold pt-12 pb-4">Materi Kursus </h2>
+        <div id="course-content" class="content-area border border-gray-300 mb-6 p-4 bg-white rounded min-h-[250px]" aria-live="polite"></div>
+    </div>
+
+    <div id="overlay" class="fixed z-50 h-screen top-0 w-full bg-black/70 flex justify-center hidden items-center">
+        <div class="flex flex-col justify-center items-center gap-4 text-white text-xl font-bold">
+		<img src="/loading.gif" class="h-36 w-36" />
+		Memproses, silakan tunggu...
+		</div>
+    </div>
+
+    <script>
+        const converter = new showdown.Converter();
+        let selectedCourseId = null;
+
+        function cleanMarkdown(text) {
+            return text.replace(/(\*{1,2}|_{1,2}|`)/g, '').trim();
+        }
+
+        function showOverlay() {
+            document.getElementById('overlay').style.display = 'flex';
+        }
+
+        function hideOverlay() {
+            document.getElementById('overlay').style.display = 'none';
+        }
+
+        document.getElementById('search-button').addEventListener('click', async () => {
+            const query = document.getElementById('search-query').value;
+
+            showOverlay();
+
+            const response = await fetch('/search-course', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ query }),
+            });
+
+            hideOverlay();
+
+            if (response.ok) {
+                const data = await response.json();
+                const courseList = document.getElementById('course-list');
+                courseList.innerHTML = '';
+
+                document.getElementById('query-display').textContent = query;
+
+                data.titles.forEach(course => {
+                    const li = document.createElement('li');
+                    li.className = 'course-item text-blue-600 bg-white hover:bg-neutral-100 cursor-pointer';
+                    li.innerHTML = `
+						<div class="p-4 rounded border">
+							${course.title}
+						</div>
+					`;
+                    li.dataset.id = course.id_title_course;
+
+                    li.addEventListener('click', () => {
+                        selectedCourseId = course.id_title_course;
+                        document.getElementById('title-input').value = cleanMarkdown(course.title);
+                        document.getElementById('course-content').innerHTML = '';
+                    });
+                    courseList.appendChild(li);
+                });
+            } else {
+                console.error('Error searching for courses:', await response.json());
+            }
+        });
+
+        document.getElementById('generate-button').addEventListener('click', async () => {
+            const title = document.getElementById('title-input').value; 
+            const query = document.getElementById('search-query').value; 
+
+            if (!selectedCourseId) {
+                alert('Silakan pilih kursus dari daftar terlebih dahulu.');
+                return;
+            }
+
+            const contentArea = document.getElementById('course-content');
+            contentArea.innerHTML = '';
+
+            showOverlay();
+
+            const response = await fetch('/generate-content', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ title, query }),
+            });
+
+            hideOverlay();
+
+            if (response.ok) {
+                const data = await response.json();
+                contentArea.innerHTML = converter.makeHtml(data.content);
+            } else {
+                console.error('Error generating content:', await response.json());
+                contentArea.innerHTML = '<p>Gagal menghasilkan konten. Silakan coba lagi.</p>';
+            }
+        });
+    </script>
+</body>
+</html>

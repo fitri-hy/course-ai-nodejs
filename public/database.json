@@ -1,0 +1,558 @@
+{
+  "query": [
+    {
+      "id_query": 1,
+      "query": "Javascript"
+    },
+    {
+      "id_query": 2,
+      "query": "HTML"
+    },
+    {
+      "id_query": 3,
+      "query": "htm"
+    },
+    {
+      "id_query": 4,
+      "query": "xhtml"
+    },
+    {
+      "id_query": 5,
+      "query": "PHP"
+    }
+  ],
+  "title_course": [
+    {
+      "id_title_course": 1,
+      "title": "Javascript | Pengantar JavaScript"
+    },
+    {
+      "id_title_course": 2,
+      "title": "Javascript | Dasar-dasar JavaScript"
+    },
+    {
+      "id_title_course": 3,
+      "title": "Javascript | Variabel dan Tipe Data"
+    },
+    {
+      "id_title_course": 4,
+      "title": "Javascript | Operator dan Struktur Kontrol"
+    },
+    {
+      "id_title_course": 5,
+      "title": "Javascript | Fungsi dan Objek"
+    },
+    {
+      "id_title_course": 6,
+      "title": "Javascript | JavaScript Lanjutan"
+    },
+    {
+      "id_title_course": 7,
+      "title": "Javascript | Pemrograman Berorientasi Objek"
+    },
+    {
+      "id_title_course": 8,
+      "title": "Javascript | Array dan Objek Array"
+    },
+    {
+      "id_title_course": 9,
+      "title": "Javascript | Penanganan Kesalahan dan Debugging"
+    },
+    {
+      "id_title_course": 10,
+      "title": "Javascript | Asinkronitas dan Promise"
+    },
+    {
+      "id_title_course": 11,
+      "title": "Javascript | DOM dan Event"
+    },
+    {
+      "id_title_course": 12,
+      "title": "Javascript | Pendahuluan tentang DOM"
+    },
+    {
+      "id_title_course": 13,
+      "title": "Javascript | Memanipulasi DOM"
+    },
+    {
+      "id_title_course": 14,
+      "title": "Javascript | Event dan Penanganan Event"
+    },
+    {
+      "id_title_course": 15,
+      "title": "Javascript | Selektor CSS dan Query"
+    },
+    {
+      "id_title_course": 16,
+      "title": "Javascript | AJAX dan Pemrosesan Sisi Server"
+    },
+    {
+      "id_title_course": 17,
+      "title": "Javascript | Pengantar AJAX"
+    },
+    {
+      "id_title_course": 18,
+      "title": "Javascript | Meminta dan Mengirim Data"
+    },
+    {
+      "id_title_course": 19,
+      "title": "Javascript | JSON dan XML"
+    },
+    {
+      "id_title_course": 20,
+      "title": "Javascript | Pemrosesan Sisi Server dengan Node.js"
+    },
+    {
+      "id_title_course": 21,
+      "title": "Javascript | Aspek Lanjutan JavaScript"
+    },
+    {
+      "id_title_course": 22,
+      "title": "Javascript | React"
+    },
+    {
+      "id_title_course": 23,
+      "title": "Javascript | Vue.js"
+    },
+    {
+      "id_title_course": 24,
+      "title": "Javascript | Angular"
+    },
+    {
+      "id_title_course": 25,
+      "title": "Javascript | MongoDB dan JavaScript"
+    },
+    {
+      "id_title_course": 26,
+      "title": "Javascript | Pen тестиdengan JavaScript"
+    },
+    {
+      "id_title_course": 27,
+      "title": "Javascript | Pemrograman Game"
+    },
+    {
+      "id_title_course": 28,
+      "title": "Javascript | Dasar-dasar Pemrograman Game"
+    },
+    {
+      "id_title_course": 29,
+      "title": "Javascript | Canvas dan WebGL"
+    },
+    {
+      "id_title_course": 30,
+      "title": "Javascript | Deteksi Tabrakan dan Fisika"
+    },
+    {
+      "id_title_course": 31,
+      "title": "Javascript | Pengembangan Game Seluler"
+    },
+    {
+      "id_title_course": 1,
+      "title": "HTML | Judul Pembelajaran HTML"
+    },
+    {
+      "id_title_course": 2,
+      "title": "HTML | Dasar-dasar HTML"
+    },
+    {
+      "id_title_course": 3,
+      "title": "HTML | Struktur Dokumen HTML"
+    },
+    {
+      "id_title_course": 4,
+      "title": "HTML | Elemen dan Tag HTML"
+    },
+    {
+      "id_title_course": 5,
+      "title": "HTML | Pemformatan Teks dan Tata Letak"
+    },
+    {
+      "id_title_course": 6,
+      "title": "HTML | Penghubung dan Gambar"
+    },
+    {
+      "id_title_course": 7,
+      "title": "HTML | Formulir dan Input"
+    },
+    {
+      "id_title_course": 8,
+      "title": "HTML | Tabel dan Daftar"
+    },
+    {
+      "id_title_course": 9,
+      "title": "HTML | Gaya CSS dalam HTML"
+    },
+    {
+      "id_title_course": 10,
+      "title": "HTML | HTML Semantik dan Aksesibilitas"
+    },
+    {
+      "id_title_course": 11,
+      "title": "HTML | HTML Responsif untuk Seluler"
+    },
+    {
+      "id_title_course": 12,
+      "title": "HTML | Pengenalan HTML5"
+    },
+    {
+      "id_title_course": 13,
+      "title": "HTML | Praktik Terbaik HTML"
+    },
+    {
+      "id_title_course": 14,
+      "title": "HTML | Proyek Pembuatan Website HTML"
+    },
+    {
+      "id_title_course": 15,
+      "title": "HTML | Pemecahan Masalah dan Tips"
+    },
+    {
+      "id_title_course": 1,
+      "title": "htm | Dasar-dasar HTML"
+    },
+    {
+      "id_title_course": 2,
+      "title": "htm | Pengenalan HTML"
+    },
+    {
+      "id_title_course": 3,
+      "title": "htm | Struktur Dokumen HTML"
+    },
+    {
+      "id_title_course": 4,
+      "title": "htm | Tag dan Atribut HTML"
+    },
+    {
+      "id_title_course": 5,
+      "title": "htm | Menambahkan Konten ke Halaman HTML"
+    },
+    {
+      "id_title_course": 6,
+      "title": "htm | Memformat Teks"
+    },
+    {
+      "id_title_course": 7,
+      "title": "htm | Struktur dan Tata Letak"
+    },
+    {
+      "id_title_course": 8,
+      "title": "htm | Penggunaan Header dan Footer"
+    },
+    {
+      "id_title_course": 9,
+      "title": "htm | Pengelompokan Konten dengan Div dan Section"
+    },
+    {
+      "id_title_course": 10,
+      "title": "htm | Membuat Tabel dan Daftar"
+    },
+    {
+      "id_title_course": 11,
+      "title": "htm | Mengontrol Tata Letak dengan CSS (Opsional)"
+    },
+    {
+      "id_title_course": 12,
+      "title": "htm | Tautan dan Navigasi"
+    },
+    {
+      "id_title_course": 13,
+      "title": "htm | Menambahkan Tautan ke Halaman Lain"
+    },
+    {
+      "id_title_course": 14,
+      "title": "htm | Membuat Menu Navigasi"
+    },
+    {
+      "id_title_course": 15,
+      "title": "htm | Menggunakan Tautan Jangkar"
+    },
+    {
+      "id_title_course": 16,
+      "title": "htm | Formulir dan Input"
+    },
+    {
+      "id_title_course": 17,
+      "title": "htm | Membuat Formulir Dasar"
+    },
+    {
+      "id_title_course": 18,
+      "title": "htm | Menambahkan Input Teks, Area Teks, dan Tombol"
+    },
+    {
+      "id_title_course": 19,
+      "title": "htm | Menangani Input Pengguna"
+    },
+    {
+      "id_title_course": 20,
+      "title": "htm | Multimedia"
+    },
+    {
+      "id_title_course": 21,
+      "title": "htm | Menyematkan Gambar dan Video"
+    },
+    {
+      "id_title_course": 22,
+      "title": "htm | Menggunakan Audio dan Canvas"
+    },
+    {
+      "id_title_course": 23,
+      "title": "htm | Pengoptimalan dan Aksesibilitas"
+    },
+    {
+      "id_title_course": 24,
+      "title": "htm | Mengoptimalkan Halaman untuk Perangkat Seluler"
+    },
+    {
+      "id_title_course": 25,
+      "title": "htm | Memastikan Aksesibilitas untuk Segala Jenis Pengguna"
+    },
+    {
+      "id_title_course": 26,
+      "title": "htm | Sumber Daya Lanjutan"
+    },
+    {
+      "id_title_course": 27,
+      "title": "htm | Referensi HTML Praktis"
+    },
+    {
+      "id_title_course": 28,
+      "title": "htm | Dokumentasi HTML MDN"
+    },
+    {
+      "id_title_course": 29,
+      "title": "htm | Tutorial dan Kelas Online HTML"
+    },
+    {
+      "id_title_course": 1,
+      "title": "xhtml | Elemen Dasar XHTML"
+    },
+    {
+      "id_title_course": 2,
+      "title": "xhtml | Struktur Dokumen XHTML"
+    },
+    {
+      "id_title_course": 3,
+      "title": "xhtml | Tag Heading dan Paragraph"
+    },
+    {
+      "id_title_course": 4,
+      "title": "xhtml | Tag Tautan dan Gambar"
+    },
+    {
+      "id_title_course": 5,
+      "title": "xhtml | Formulir di XHTML"
+    },
+    {
+      "id_title_course": 6,
+      "title": "xhtml | Validasi XHTML"
+    },
+    {
+      "id_title_course": 7,
+      "title": "xhtml | Cascading Style Sheets (CSS) dan XHTML"
+    },
+    {
+      "id_title_course": 8,
+      "title": "xhtml | Pembuatan Tata Letak dengan XHTML"
+    },
+    {
+      "id_title_course": 9,
+      "title": "xhtml | Menggunakan Form dan Input di XHTML"
+    },
+    {
+      "id_title_course": 10,
+      "title": "xhtml | Menampilkan Data Tabel dengan XHTML"
+    },
+    {
+      "id_title_course": 11,
+      "title": "xhtml | Acessibilitas di XHTML"
+    },
+    {
+      "id_title_course": 12,
+      "title": "xhtml | Optimasi XHTML untuk Mesin Pencari"
+    },
+    {
+      "id_title_course": 1,
+      "title": "PHP | Pengantar PHP"
+    },
+    {
+      "id_title_course": 2,
+      "title": "PHP | Apa itu PHP?"
+    },
+    {
+      "id_title_course": 3,
+      "title": "PHP | Menginstal PHP"
+    },
+    {
+      "id_title_course": 4,
+      "title": "PHP | Struktur Dasar PHP"
+    },
+    {
+      "id_title_course": 5,
+      "title": "PHP | Tipe Data dan Operator"
+    },
+    {
+      "id_title_course": 6,
+      "title": "PHP | Tipe Data Dasar"
+    },
+    {
+      "id_title_course": 7,
+      "title": "PHP | Operator Aritmatika"
+    },
+    {
+      "id_title_course": 8,
+      "title": "PHP | Operator Logika"
+    },
+    {
+      "id_title_course": 9,
+      "title": "PHP | Operator Perbandingan"
+    },
+    {
+      "id_title_course": 10,
+      "title": "PHP | Struktur Kontrol"
+    },
+    {
+      "id_title_course": 11,
+      "title": "PHP | Struktur If-Else"
+    },
+    {
+      "id_title_course": 12,
+      "title": "PHP | Struktur Switch-Case"
+    },
+    {
+      "id_title_course": 13,
+      "title": "PHP | Struktur Loop (For, While, Do-While)"
+    },
+    {
+      "id_title_course": 14,
+      "title": "PHP | Fungsi dan Array"
+    },
+    {
+      "id_title_course": 15,
+      "title": "PHP | Mendefinisikan Fungsi"
+    },
+    {
+      "id_title_course": 16,
+      "title": "PHP | Parameter dan Argumen Fungsi"
+    },
+    {
+      "id_title_course": 17,
+      "title": "PHP | Mengenal Array"
+    },
+    {
+      "id_title_course": 18,
+      "title": "PHP | Mengakses dan Memodifikasi Array"
+    },
+    {
+      "id_title_course": 19,
+      "title": "PHP | Form Handling"
+    },
+    {
+      "id_title_course": 20,
+      "title": "PHP | Membuat Formulir HTML"
+    },
+    {
+      "id_title_course": 21,
+      "title": "PHP | Menerima Input Formulir dengan PHP"
+    },
+    {
+      "id_title_course": 22,
+      "title": "PHP | Memvalidasi Input Formulir"
+    },
+    {
+      "id_title_course": 23,
+      "title": "PHP | Database Koneksi"
+    },
+    {
+      "id_title_course": 24,
+      "title": "PHP | Terhubung ke Database dengan MySQLi"
+    },
+    {
+      "id_title_course": 25,
+      "title": "PHP | Menjalankan Query"
+    },
+    {
+      "id_title_course": 26,
+      "title": "PHP | Mengambil dan Menampilkan Data"
+    },
+    {
+      "id_title_course": 27,
+      "title": "PHP | Cookie dan Session"
+    },
+    {
+      "id_title_course": 28,
+      "title": "PHP | Mengenal Cookie dan Session"
+    },
+    {
+      "id_title_course": 29,
+      "title": "PHP | Membuat dan Mengelola Cookie"
+    },
+    {
+      "id_title_course": 30,
+      "title": "PHP | Membuat dan Mengelola Session"
+    },
+    {
+      "id_title_course": 31,
+      "title": "PHP | Keamanan PHP"
+    },
+    {
+      "id_title_course": 32,
+      "title": "PHP | Injeksi SQL"
+    },
+    {
+      "id_title_course": 33,
+      "title": "PHP | Cross-Site Scripting (XSS)"
+    },
+    {
+      "id_title_course": 34,
+      "title": "PHP | Perlindungan CSRF"
+    },
+    {
+      "id_title_course": 35,
+      "title": "PHP | Pengelolaan File"
+    },
+    {
+      "id_title_course": 36,
+      "title": "PHP | Membaca dan Menulis File"
+    },
+    {
+      "id_title_course": 37,
+      "title": "PHP | Mengunggah File"
+    },
+    {
+      "id_title_course": 38,
+      "title": "PHP | Menghapus File"
+    },
+    {
+      "id_title_course": 39,
+      "title": "PHP | Topik Lanjutan"
+    },
+    {
+      "id_title_course": 40,
+      "title": "PHP | Pemrograman Berorientasi Objek (OOP)"
+    },
+    {
+      "id_title_course": 41,
+      "title": "PHP | Kerangka Kerja MVC"
+    },
+    {
+      "id_title_course": 42,
+      "title": "PHP | Pengujian Unit"
+    },
+    {
+      "id_title_course": 43,
+      "title": "PHP | Debug PHP"
+    }
+  ],
+  "course": [
+    {
+      "id_course": 1,
+      "id_title_course": 1,
+      "course": "**Ayo Ngobrolin XHTML, Si HTML Gaul!**\n\n**FYI, Apa Sih XHTML Itu?**\n\nXHTML itu kayak HTML versi kece yang pake aturan ketat. Mirip kayak anak metal yang harus ngikutin dress code. Soalnya, XHTML mau web kita standar, rapih, dan bisa dibuka di semua perangkat.\n\n**Elemen Dasar XHTML**\n\nNah, sekarang kita bahas elemen-elemen dasar XHTML yang sering dipake:\n\n* **html** : Wadah terluar semua konten web kita.\n* **head** : Bagian yang naro info penting kayak title dan meta tags.\n* **body** : Inti dari web, tempat taroh semua konten kayak teks, gambar, dan video.\n\n**Contoh Simpel Elemen XHTML:**\n\n```\n<html>\n  <head>\n    <title>Web Gaul Banget!</title>\n  </head>\n  <body>\n    <h1>Selamat Datang di Web Keren!</h1>\n    <p>Ini web paling kece yang pernah ada.</p>\n    <img src=\"keren.jpg\" alt=\"Gambar Keren\">\n  </body>\n</html>\n```\n\n**Tips Biar XHTML Kamu Ngegas:**\n\n* Selalu tutup elemen dengan tag penutup (misal: </html>).\n* Naro atribut lengkap dan sesuai aturan (misal: <img src=\"keren.jpg\" alt=\"Gambar Keren\">).\n* Hindari typo, soalnya bisa bikin web gagal dibuka.\n\n**Kesimpulan**\n\nXHTML itu penting banget buat bikin web yang kece dan standar. Dengan ngerti elemen dasarnya, kita bisa ngoding web yang ngebut dan kece! Gaskeun!"
+    },
+    {
+      "id_course": 2,
+      "id_title_course": 4,
+      "course": "**Yo, cabut kita bahas HTML!**\n\nHTML, alias Hypertext Markup Language, itu kayak bahasa rahasia buat ngatur tampilan website. Kayak make mainan Lego, kita susun elemen-elemen HTML buat bikin website yang kece.\n\n**Elemen HTML, kayak Blok Bangunan**\n\nElemen HTML itu kayak kotak-kotak yang bikin website. Ada banyak banget elemen, tapi yang paling basic tuh kayak:\n\n* `<p>` buat paragraf\n* `<a>` buat link\n* `<img>` buat gambar\n\nCara makenya gampang, tinggal kasih tanda `<` dan `>` di awal dan akhir nama elemen. Contohnya:\n\n```\n<p>Halo, dunia!</p>\n```\n\nIni bakal bikin satu paragraf yang isinya tulisan \"Halo, dunia!\".\n\n**Tag HTML, Penjelas Elemen**\n\nNah, supaya elemen kita lebih jelas, kita kasih tag HTML. Tag itu kayak label yang kasih tahu browser bagian website yang mana. Misalnya:\n\n```\n<p id=\"intro\">Halo, dunia!</p>\n```\n\nTag `id=\"intro\"` ngasih tahu browser kalau paragraf ini punya ID \"intro\". ID itu berguna buat ngatur gaya atau animasi.\n\n**Contoh Elemen dan Tag**\n\nNih contoh elemen dan tag HTML yang sering dipake:\n\n* **Heading:** `<h1>`, `<h2>`, `<h3>`, dll.\n* **Paragraph:** `<p>`\n* **Link:** `<a href=\"www.google.com\">Google</a>`\n* **Gambar:** `<img src=\"gambar.jpg\">`\n* **List:** `<ul>`, `<ol>`\n* **Table:** `<table>`, `<tr>`, `<td>`\n\n**Yuk, Practice!**\n\nBuat cobain, buka file text editor (kayak Notepad) dan ketik ini:\n\n```\n<!DOCTYPE html>\n<html>\n<body>\n  <h1>HTML itu Keren!</h1>\n  <p>Ayo kita belajar HTML.</p>\n  <a href=\"https://www.w3schools.com/html/\">Belajar HTML di W3Schools</a>\n</body>\n</html>\n```\n\nSave file-nya dengan ekstensi `.html` (misal: belajar-html.html) dan buka di browser. Voila! Website sederhana kamu udah jadi!\n\nItulah pengenalan singkat tentang elemen dan tag HTML. Semoga bermanfaat, sob!"
+    }
+  ]
+}
