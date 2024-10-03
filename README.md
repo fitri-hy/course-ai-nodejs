@@ -2,48 +2,48 @@
 
 # Aplikasi Berbasis WEB AI Course | Asisten Pengajaran Otomatis
 
-## I. Pendahuluan
+## Latar Belakang
 
-Dalam era digital saat ini, pendidikan telah mengalami transformasi yang signifikan. Meskipun akses terhadap informasi semakin mudah, banyak individu yang masih menghadapi kesulitan dalam menemukan materi pembelajaran yang relevan dan berkualitas. Oleh karena itu, kami, sekelompok penggemar teknologi dan pendidikan, merasa terdorong untuk menciptakan solusi yang dapat membantu pengguna dalam proses belajar mereka. Melalui skripsi ini, kami akan menjelaskan awal mula hingga terciptanya aplikasi **AI Course | Asisten Pengajaran Otomatis**, sebuah Aplikasi web pembelajaran yang memanfaatkan teknologi AI untuk memberikan pengalaman belajar yang lebih efektif dan efisien.
+Dengan kemajuan teknologi dan perkembangan pesat dalam bidang kecerdasan buatan (AI), kebutuhan akan alat yang dapat mempermudah proses pembelajaran semakin meningkat. Aplikasi berbasis web yang dirancang sebagai Asisten Pengajaran Otomatis ini bertujuan untuk menyediakan sumber daya pembelajaran yang relevan dan efisien dengan memanfaatkan kemampuan AI dalam menghasilkan konten pendidikan. Dengan mengintegrasikan teknologi pencarian dan pengolahan teks, aplikasi ini diharapkan dapat meningkatkan pengalaman belajar bagi pengguna.
 
-## II. Latar Belakang
+## Rumusan Masalah
 
-Sebelum pengembangan **AI Course | Asisten Pengajaran Otomatis**, kami mengamati bahwa banyak orang ingin meningkatkan pengetahuan mereka tetapi seringkali merasa kewalahan oleh banyaknya informasi yang tersedia di internet. Proses pencarian materi pembelajaran yang sesuai dengan kebutuhan sering kali memakan waktu dan membingungkan. Dalam konteks inilah, muncul ide untuk memanfaatkan teknologi AI guna membantu pengguna menemukan dan menghasilkan konten pembelajaran secara otomatis.
+- Bagaimana cara mengembangkan aplikasi berbasis web yang mampu menghasilkan rekomendasi judul pembelajaran menggunakan kecerdasan buatan?
+- Bagaimana cara aplikasi ini dapat menyediakan konten pembelajaran yang relevan berdasarkan input dari pengguna?
+- Apa saja tantangan yang dihadapi dalam implementasi sistem dan bagaimana solusinya?
 
-## III. Momen Pencerahan
+## Tujuan Penelitian
 
-Suatu malam, dalam sebuah diskusi, salah satu anggota tim kami mengemukakan ide inovatif:
+- Mengembangkan aplikasi berbasis web yang dapat menghasilkan daftar judul pembelajaran secara otomatis menggunakan API AI.
+- Menyediakan konten pembelajaran yang lengkap dan terstruktur dengan baik berdasarkan judul yang dipilih oleh pengguna.
+- Menganalisis efektivitas aplikasi dalam membantu pengguna menemukan materi pembelajaran yang sesuai.
 
-"*Bagaimana jika kita menggunakan teknologi AI untuk membantu orang menemukan dan menghasilkan konten pembelajaran?*"
+## Metodologi
 
-Ide ini menginspirasi kami untuk mengeksplorasi lebih lanjut tentang bagaimana teknologi dapat diintegrasikan ke dalam proses pembelajaran.
+### 1. Desain dan Pengembangan
 
-## IV. Proses Pengembangan
+- **Penggunaan Framework**: Aplikasi ini dibangun menggunakan Node.js dan Express untuk backend, yang memungkinkan pengelolaan rute dan middleware secara efisien. Data disimpan dalam format JSON.
+- **Integrasi API AI**: Menggunakan API Gemini untuk menghasilkan rekomendasi judul dan konten pembelajaran. Permintaan ke API dilakukan menggunakan axios.
+- **Database Lokal**: Data kursus dan query disimpan dalam `database.json`, yang memungkinkan akses dan penyimpanan yang mudah.
 
-Setelah momen pencerahan tersebut, kami mulai bekerja dengan semangat dan antusiasme. Kami melakukan riset mendalam mengenai AI dan kemampuannya dalam menghasilkan konten. Dengan mengumpulkan data dan membangun database judul kursus, kami mengembangkan algoritma untuk mencocokkan kueri pengguna dengan konten yang relevan.
+### 2. Implementasi Fitur
 
-Selama beberapa bulan, kami menghadapi berbagai tantangan teknis, tetapi komitmen kami untuk menyelesaikan aplikasi ini tidak surut. Kami terus melakukan perbaikan, menguji fitur-fitur baru, dan mendengarkan masukan dari calon pengguna. Setiap umpan balik yang kami terima membawa kami lebih dekat ke visi kami untuk menciptakan platform pembelajaran yang intuitif dan efisien.
+- **Pencarian Judul Kursus**: Mengimplementasikan endpoint /search-course untuk menerima query dari pengguna dan memberikan rekomendasi judul yang relevan.
+- **Generasi Konten**: Endpoint /generate-content digunakan untuk menghasilkan artikel pembelajaran berdasarkan judul yang dipilih pengguna.
+- **Pengolahan Data**: Penggunaan algoritma Levenshtein untuk menemukan kecocokan judul yang mendekati untuk menghindari duplikasi konten.
 
-## V. Peluncuran Pertama
+### 3. Pengujian
 
-Setelah peluncuran, kami sangat senang melihat tanggapan positif dari pengguna. Mereka mulai merasakan manfaat dari fitur pencarian judul otomatis dan generasi konten yang cepat. Kami terus berkomitmen untuk mengembangkan aplikasi ini, menambahkan fitur baru, dan meningkatkan pengalaman pengguna berdasarkan umpan balik yang kami terima.
+- Melakukan pengujian terhadap fungsionalitas aplikasi untuk memastikan bahwa rekomendasi judul dan konten yang dihasilkan relevan dan akurat.
+- Mengumpulkan umpan balik dari pengguna untuk evaluasi dan perbaikan lebih lanjut.
 
-## VII. Visi ke Depan
+## Hasil dan Pembahasan
 
-Kami bertekad untuk terus berinovasi, mengadaptasi teknologi terbaru, dan memberikan yang terbaik bagi pengguna kami. Kami percaya bahwa pendidikan seharusnya tidak memiliki batasan, dan kami berkomitmen untuk menjadi bagian dari perjalanan pembelajaran Anda.
+Aplikasi ini berhasil menyediakan daftar judul pembelajaran secara otomatis dan memungkinkan pengguna untuk mendapatkan konten yang terstruktur dengan baik. Analisis hasil menunjukkan bahwa pengguna merasa lebih terbantu dalam menemukan materi pembelajaran yang sesuai dengan kebutuhan mereka. Tantangan yang dihadapi termasuk validasi data dan pengelolaan respons API yang tidak selalu konsisten.
 
-## VIII. Kesimpulan
+## Kesimpulan
 
-Melalui **AI Course | Asisten Pengajaran Otomatis**, kami berharap dapat mengubah cara orang belajar dan berinteraksi dengan informasi yang akurat dan relavan. Dengan memanfaatkan teknologi AI, kami berkomitmen untuk memberikan pengalaman belajar yang lebih cerdas, cepat, dan efisien. Kami mengajak Anda untuk bergabung dalam revolusi pembelajaran ini dan menjadi bagian dari komunitas **AI Course | Asisten Pengajaran Otomatis**. Bersama, kita bisa menciptakan masa depan yang lebih cerah melalui pendidikan.
-
-# Penginstalan
-
-### Prasyarat
-
-Sebelum memulai, pastikan Anda telah memenuhi prasyarat berikut:
-
-- Node.js: Pastikan Anda telah menginstal Node.js.
-- Git: Pastikan Anda memiliki Git terinstal di sistem Anda.
+**Aplikasi Berbasis WEB AI Course | Asisten Pengajaran Otomatis** ini menunjukkan potensi besar dalam meningkatkan pengalaman pembelajaran melalui teknologi. Dengan kemampuan untuk menghasilkan judul dan konten secara otomatis, aplikasi ini dapat menjadi alat yang efektif bagi siswa dan pengajar. Penelitian lebih lanjut diperlukan untuk meningkatkan algoritma pencarian dan pengolahan konten agar lebih responsif terhadap kebutuhan pengguna.
 
 ### Langkah-langkah Instalasi
 
