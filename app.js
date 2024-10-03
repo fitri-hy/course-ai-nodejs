@@ -29,7 +29,7 @@ function cleanMarkdown(text) {
 
 app.post('/search-course', async (req, res) => {
     const query = req.body.query.trim();
-    const prompt = `Buatkan daftar judul pembelajaran (Tidak perlu penjelasannya) tentang: `;
+    const prompt = `Buatkan artikel pembelajaran dengan singkat dan jelas Tentang: `;
     const database = readDatabase();
 
     const normalizedQuery = query.toLowerCase();
@@ -89,7 +89,7 @@ app.post('/generate-content', async (req, res) => {
         return res.status(400).json({ error: 'Title is required and must be a string.' });
     }
 
-    const prompt = `Buatkan artikel pembelajaran dengan teks makrdown, jika ada kode yang belum dibungkus backtick maka bungkus maksimal 600 kata Tentang: `;
+    const prompt = `Buatkan artikel pembelajaran maksimal 500 kata Tentang: `;
     const database = readDatabase();
 
     const existingTitles = database.title_course.map(t => ({ title: t.title, id_title_course: t.id_title_course }));

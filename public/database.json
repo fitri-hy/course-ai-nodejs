@@ -15,6 +15,14 @@
     {
       "id_query": 4,
       "query": "Python"
+    },
+    {
+      "id_query": 5,
+      "query": ""
+    },
+    {
+      "id_query": 6,
+      "query": "Java"
     }
   ],
   "title_course": [
@@ -349,6 +357,202 @@
     {
       "id_title_course": 83,
       "title": "Python | - Proyek Python"
+    },
+    {
+      "id_title_course": 84,
+      "title": " | Ilmu Pengetahuan Alam"
+    },
+    {
+      "id_title_course": 85,
+      "title": " | Biologi"
+    },
+    {
+      "id_title_course": 86,
+      "title": " | Fisika"
+    },
+    {
+      "id_title_course": 87,
+      "title": " | Kimia"
+    },
+    {
+      "id_title_course": 88,
+      "title": " | Ilmu Kebumian"
+    },
+    {
+      "id_title_course": 89,
+      "title": " | Ilmu Pengetahuan Sosial"
+    },
+    {
+      "id_title_course": 90,
+      "title": " | Sejarah"
+    },
+    {
+      "id_title_course": 91,
+      "title": " | Geografi"
+    },
+    {
+      "id_title_course": 92,
+      "title": " | Ekonomi"
+    },
+    {
+      "id_title_course": 93,
+      "title": " | Sosiologi"
+    },
+    {
+      "id_title_course": 94,
+      "title": " | Matematika"
+    },
+    {
+      "id_title_course": 95,
+      "title": " | Aritmatika"
+    },
+    {
+      "id_title_course": 96,
+      "title": " | Aljabar"
+    },
+    {
+      "id_title_course": 97,
+      "title": " | Geometri"
+    },
+    {
+      "id_title_course": 98,
+      "title": " | Kalkulus"
+    },
+    {
+      "id_title_course": 99,
+      "title": " | Bahasa"
+    },
+    {
+      "id_title_course": 100,
+      "title": " | Bahasa Indonesia"
+    },
+    {
+      "id_title_course": 101,
+      "title": " | Bahasa Inggris"
+    },
+    {
+      "id_title_course": 102,
+      "title": " | Bahasa Mandarin"
+    },
+    {
+      "id_title_course": 103,
+      "title": " | Bahasa Jawa"
+    },
+    {
+      "id_title_course": 104,
+      "title": " | Seni"
+    },
+    {
+      "id_title_course": 105,
+      "title": " | Seni Rupa"
+    },
+    {
+      "id_title_course": 106,
+      "title": " | Seni Musik"
+    },
+    {
+      "id_title_course": 107,
+      "title": " | Seni Tari"
+    },
+    {
+      "id_title_course": 108,
+      "title": " | Seni Teater"
+    },
+    {
+      "id_title_course": 109,
+      "title": " | Pendidikan Jasmani dan Kesehatan"
+    },
+    {
+      "id_title_course": 110,
+      "title": " | Pendidikan Jasmani"
+    },
+    {
+      "id_title_course": 111,
+      "title": " | Kesehatan"
+    },
+    {
+      "id_title_course": 112,
+      "title": " | Lain-lain"
+    },
+    {
+      "id_title_course": 113,
+      "title": " | Teknologi Informasi dan Komunikasi"
+    },
+    {
+      "id_title_course": 114,
+      "title": " | Pendidikan Kewarganegaraan"
+    },
+    {
+      "id_title_course": 115,
+      "title": " | Agama"
+    },
+    {
+      "id_title_course": 116,
+      "title": " | Muatan Lokal"
+    },
+    {
+      "id_title_course": 117,
+      "title": "Java | Pengenalan Java"
+    },
+    {
+      "id_title_course": 118,
+      "title": "Java | Struktur Bahasa Java"
+    },
+    {
+      "id_title_course": 119,
+      "title": "Java | Tipe Data dan Operator"
+    },
+    {
+      "id_title_course": 120,
+      "title": "Java | Kontrol Alur dan Loop"
+    },
+    {
+      "id_title_course": 121,
+      "title": "Java | Objek dan Kelas"
+    },
+    {
+      "id_title_course": 122,
+      "title": "Java | Pewarisan dan Polimorfisme"
+    },
+    {
+      "id_title_course": 123,
+      "title": "Java | Penanganan Eksepsi"
+    },
+    {
+      "id_title_course": 124,
+      "title": "Java | Java Collection Framework"
+    },
+    {
+      "id_title_course": 125,
+      "title": "Java | Multithreading"
+    },
+    {
+      "id_title_course": 126,
+      "title": "Java | Input dan Output"
+    },
+    {
+      "id_title_course": 127,
+      "title": "Java | Konektivitas Database"
+    },
+    {
+      "id_title_course": 128,
+      "title": "Java | Pemrograman Antarmuka Grafis (GUI)"
+    },
+    {
+      "id_title_course": 129,
+      "title": "Java | Pemrograman Web dengan Java"
+    },
+    {
+      "id_title_course": 130,
+      "title": "Java | JavaFX"
+    },
+    {
+      "id_title_course": 131,
+      "title": "Java | Spring Framework"
+    },
+    {
+      "id_title_course": 132,
+      "title": "Java | Hibernate"
     }
   ],
   "course": [
@@ -386,6 +590,46 @@
       "id_course": 7,
       "id_title_course": 71,
       "course": "# Python: Tipe Data dan Struktur Data\n\n## Pendahuluan\n\nDalam pemrograman Python, tipe data mendefinisikan jenis nilai yang dapat disimpan dalam variabel. Struktur data, di sisi lain, adalah cara untuk mengatur dan mengelola data dalam memori. Memahami kedua konsep ini sangat penting untuk menulis kode Python yang efektif.\n\n## Tipe Data Python\n\nTipe data dasar dalam Python meliputi:\n\n- **Numerik**: integer (int), bilangan floating-point (float), dan kompleks (complex)\n- **String**: urutan karakter\n- **Boolean**: nilai logika (True atau False)\n- **None**: nilai khusus yang mewakili ketidakhadiran\n\n## Struktur Data Python\n\nStruktur data umum dalam Python meliputi:\n\n- **List**: koleksi item yang dipesan dan dapat dimodifikasi\n- **Tuple**: koleksi item yang dipesan dan tidak dapat dimodifikasi\n- **Set**: koleksi item unik dan tidak berurutan\n- **Dictionary**: koleksi pasangan kunci-nilai yang tidak terurut\n\n### Mengakses Elemen Struktur Data\n\nAnda dapat mengakses elemen dalam struktur data menggunakan pengindeksan atau metode.\n\n**Pengindeksan:**\n```python\nmy_list[0]  # Mengakses elemen pertama dari daftar\nmy_tuple[1]  # Mengakses elemen kedua dari tuple\n```\n\n**Metode:**\n```python\nmy_list.append(item)  # Menambahkan item ke daftar\nmy_set.remove(item)  # Menghapus item dari set\n```\n\n## Contoh\n\nBerikut adalah contoh penggunaan tipe data dan struktur data dalam Python:\n\n```python\n# Membuat tipe data\nname = \"John Doe\"  # String\nage = 25  # Integer\nis_student = True  # Boolean\nsubjects = [\"Matematika\", \"Fisika\", \"Kimia\"]  # Daftar\n```\n\n```python\n# Menggunakan struktur data\n# Mengakses elemen dari daftar menggunakan pengindeksan\nfirst_subject = subjects[0]\n\n# Menambahkan item ke daftar menggunakan metode\nsubjects.append(\"Biologi\")\n\n# Menghapus item dari set menggunakan metode\nsubjects.remove(\"Fisika\")\n```\n\n## Kesimpulan\n\nMemahami tipe data dan struktur data sangat penting dalam pemrograman Python. Tipe data menentukan jenis nilai yang dapat disimpan dalam variabel, sementara struktur data menyediakan cara untuk mengatur dan mengelola data dalam memori. Menguasai konsep-konsep ini memungkinkan Anda menulis kode yang efisien, terorganisir, dan dapat dipelihara."
+    },
+    {
+      "id_course": 8,
+      "id_title_course": 24,
+      "course": "## HTML: Kegunaan dan Aksesibilitas\n\n### Pengertian HTML\n\nHTML (Hypertext Markup Language) adalah bahasa markup yang digunakan untuk membuat dan menyusun konten di halaman web. Ini memungkinkan pengembang untuk mengatur teks, gambar, tautan, dan elemen interaktif lainnya ke dalam struktur yang terdefinisi dengan baik.\n\n### Kegunaan HTML\n\nHTML memiliki berbagai kegunaan, antara lain:\n\n* **Membuat halaman web statis:** HTML dapat digunakan untuk membuat halaman web dasar yang menampilkan konten tetap, seperti halaman informasi perusahaan, blog, atau situs berita.\n* **Membuat halaman web dinamis:** Dengan menggunakan skrip sisi klien (seperti JavaScript), pengembang dapat membuat halaman web yang merespons tindakan pengguna dan memuat konten dinamis.\n* **Membangun aplikasi web:** HTML dapat digabungkan dengan teknologi sisi server (seperti PHP atau Python) untuk membuat aplikasi web lengkap yang memiliki antarmuka pengguna berbasis browser.\n* **Menyediakan aksesibilitas:** HTML menyertakan tag dan atribut yang memungkinkan pengembang membuat konten yang dapat diakses oleh pengguna penyandang disabilitas.\n\n### Aksesibilitas di HTML\n\nAksesibilitas penting untuk memastikan bahwa semua pengguna dapat mengakses dan berinteraksi dengan konten web. HTML menyediakan sejumlah fitur untuk meningkatkan aksesibilitas, seperti:\n\n* **Tag heading:** Tag heading (`<h1>` hingga `<h6>`) digunakan untuk mendefinisikan hierarki konten dan membantu pembaca memahami struktur halaman.\n* **Teks alternatif:** Atribut `alt` pada tag `<img>` digunakan untuk menyediakan teks deskriptif bagi pengguna yang tidak dapat melihat gambar.\n* **Transkip:** Transkip teks atau audio dapat disediakan menggunakan tag `<audio>` atau `<video>` untuk pengguna tunarungu atau gangguan pendengaran.\n* **Kontras warna:** Kontras warna yang cukup antara teks dan latar belakang sangat penting untuk memastikan bahwa teks dapat dibaca oleh pengguna yang memiliki gangguan penglihatan.\n* **Keyboard navigation:** Halaman web harus dapat dinavigasi menggunakan keyboard, sehingga pengguna yang tidak dapat menggunakan mouse dapat mengakses semua konten.\n\nDengan mengikuti praktik aksesibilitas HTML, pengembang dapat membuat konten web yang inklusif dan dapat diakses oleh semua orang."
+    },
+    {
+      "id_course": 9,
+      "id_title_course": 117,
+      "course": "**Belajar Java: Pengenalan**\n\n**Apa itu Java?**\n\nJava adalah bahasa pemrograman berorientasi objek yang dirancang untuk membuat aplikasi yang dapat berjalan di beberapa platform (multi-platform). Ini adalah bahasa yang kuat, aman, dan serbaguna yang banyak digunakan dalam pengembangan berbagai aplikasi perangkat lunak.\n\n**Fitur Utama Java:**\n\n* **Berorientasi Objek:** Java menggunakan konsep objek dan kelas untuk mengorganisir kode dan membuatnya mudah untuk digunakan kembali.\n* **Multi-Platform:** Kode Java yang dikompilasi dapat dijalankan di platform apa pun yang mendukung Java Virtual Machine (JVM).\n* **Aman:** Java memiliki fitur keamanan bawaan, seperti pemeriksaan tipe statis, yang membantu mencegah eksploitasi dan peretasan.\n* **Kuat:** Java menyediakan berbagai fitur lanjutan, seperti penanganan pengecualian, manajemen memori, dan dukungan multithreading.\n* **Serbaguna:** Java dapat digunakan untuk mengembangkan berbagai macam aplikasi, termasuk aplikasi desktop, aplikasi web, aplikasi seluler, dan aplikasi perusahaan.\n\n**Penggunaan Java:**\n\nJava banyak digunakan dalam industri pengembangan perangkat lunak untuk membuat berbagai jenis aplikasi, seperti:\n\n* Aplikasi Desktop: Microsoft Office, Eclipse\n* Aplikasi Web: Amazon, Netflix\n* Aplikasi Seluler: Android, iOS\n* Aplikasi Perusahaan: SAP, Oracle\n* Aplikasi Tertanam: Kendaraan, sistem kontrol\n\n**Memulai dengan Java:**\n\nUntuk memulai dengan Java, Anda memerlukan beberapa hal:\n\n* Kit Pengembangan Java (JDK) yang mencakup Java Virtual Machine (JVM)\n* Editor teks atau Lingkungan Pengembangan Terpadu (IDE)\n* Pengetahuan dasar tentang konsep pemrograman\n\nSetelah Anda memiliki alat-alat ini, Anda dapat mulai menulis kode Java dan membangun aplikasi Anda sendiri."
+    },
+    {
+      "id_course": 10,
+      "id_title_course": 1,
+      "course": "**HTML | Dasar-dasar HTML**\n\nHTML (Hypertext Markup Language) adalah bahasa markup yang digunakan untuk membuat struktur dan konten halaman web. Ini adalah fondasi untuk semua situs web dan menyediakan kerangka kerja untuk konten teks, gambar, video, dan elemen interaktif lainnya.\n\n**Struktur Dasar**\n\nSebuah dokumen HTML terdiri dari dua bagian utama:\n\n* **Tag HTML:** Tag adalah kata kunci yang membungkus konten dan mendefinisikan bagaimana konten ditampilkan. Tag selalu ditulis dalam tanda kurung siku (< >).\n* **Konten:** Konten adalah teks, gambar, atau elemen lain yang ditampilkan di halaman web.\n\n**Tag Umum**\n\nBeberapa tag HTML yang paling umum digunakan meliputi:\n\n* `<html>`: Mendefinisikan awal dan akhir dokumen HTML.\n* `<head>`: Berisi informasi tentang halaman, seperti judul dan kata kunci.\n* `<body>`: Berisi konten yang terlihat di halaman web.\n* `<h1>` hingga `<h6>`: Membuat judul dengan ukuran berbeda.\n* `<p>`: Membuat paragraf.\n* `<br>`: Menambahkan jeda baris.\n* `<img>`: Menambahkan gambar.\n* `<a>`: Menambahkan tautan.\n\n**Atribut**\n\nTag HTML dapat menyertakan atribut untuk menyediakan informasi tambahan, seperti:\n\n* `id`: Mengidentifikasi elemen secara unik.\n* `class`: Mengelompokkan elemen yang serupa.\n* `style`: Menentukan gaya visual elemen.\n\n**Contoh Kode**\n\nBerikut adalah contoh kode HTML sederhana yang membuat halaman web dasar dengan judul dan teks:\n\n```html\n<!DOCTYPE html>\n<html>\n<head>\n  <title>Halaman Saya</title>\n</head>\n<body>\n  <h1>Selamat Datang di Halaman Saya</h1>\n  <p>Ini adalah halaman web dasar yang dibuat dengan HTML.</p>\n</body>\n</html>\n```\n\n**Kesimpulan**\n\nDasar-dasar HTML adalah penting untuk pemahaman dasar tentang pengembangan web. Dengan memahami struktur dan tag umum, Anda dapat mulai membuat halaman web sederhana dan meletakkan dasar untuk situs web yang lebih kompleks. Saat Anda melanjutkan mempelajari HTML, Anda akan terbiasa dengan tag dan atribut yang lebih canggih untuk membuat halaman web yang dinamis dan interaktif."
+    },
+    {
+      "id_course": 11,
+      "id_title_course": 5,
+      "course": "**HTML: Atribut HTML**\n\nDalam HTML (Hypertext Markup Language), atribut adalah properti yang memodifikasi tampilan, perilaku, atau konten elemen HTML. Atribut ditulis dalam bentuk pasangan nama-nilai di dalam tag pembuka elemen.\n\n**Sintaks Atribut**\n\nSintaks dasar atribut HTML adalah:\n\n```html\n<tag-name atribut-nama=\"nilai-atribut\">\n```\n\nContoh:\n\n```html\n<p style=\"color: red;\">Teks Paragraf</p>\n```\n\nDalam contoh ini, elemen `<p>` memiliki atribut `style`. Atribut `style` menentukan gaya elemen, dan nilai atribut `color: red;` menyetel warna teks menjadi merah.\n\n**Jenis Atribut**\n\nAda dua jenis utama atribut HTML:\n\n* **Atribut Umum:** Atribut yang dapat digunakan pada sebagian besar elemen HTML, seperti `id`, `class`, dan `style`.\n* **Atribut Khusus Elemen:** Atribut yang hanya dapat digunakan pada elemen tertentu, seperti `href` pada elemen `<a>` atau `src` pada elemen `<img>`.\n\n**Atribut Penting**\n\nBerikut adalah beberapa atribut HTML yang paling umum digunakan:\n\n* **id:** Mengidentifikasi elemen secara unik dalam dokumen.\n* **class:** Menambahkan kelas CSS ke elemen untuk penataan gaya.\n* **style:** Menentukan gaya elemen menggunakan CSS inline.\n* **href:** Menentukan tautan atau URL untuk elemen `<a>`.\n* **src:** Menentukan sumber gambar atau file lain untuk elemen `<img>` atau `<iframe>`.\n* **alt:** Memberikan teks alternatif untuk gambar atau konten lain yang tidak dapat ditampilkan.\n* **title:** Menampilkan tooltip atau teks deskriptif saat pengguna mengarahkan kursor ke elemen.\n\n**Kegunaan Atribut**\n\nAtribut HTML digunakan untuk:\n\n* Menata gaya elemen\n* Menambahkan interaktivitas\n* Mengontrol perilaku konten\n* Meningkatkan aksesibilitas\n\nDengan menggunakan atribut, pengembang dapat menyesuaikan tampilan dan fungsionalitas halaman web sesuai dengan kebutuhan mereka.\n\n**Catatan:**\n\n* Atribut HTML tidak peka huruf besar/kecil.\n* Nilai atribut harus diapit tanda kutip ganda atau tunggal.\n* Urutan atribut dalam tag pembuka tidak penting.\n* Atribut yang tidak ditentukan akan menggunakan nilai default browser."
+    },
+    {
+      "id_course": 12,
+      "id_title_course": 8,
+      "course": "**HTML: Tautan dan Navigasi**\n\nTautan (link) dan navigasi sangat penting dalam pengembangan situs web HTML untuk menyediakan cara bagi pengguna untuk menavigasi antar halaman dan mengakses informasi.\n\n**Tautan (Link)**\n\nTautan dapat digunakan untuk membuat koneksi antara dokumen HTML yang berbeda atau ke sumber daya eksternal seperti file gambar atau video. Sintaks untuk membuat tautan adalah sebagai berikut:\n\n`<a href=\"URL\">Teks Tautan</a>`\n\n* **href:** Menentukan alamat tujuan tautan.\n* **Teks Tautan:** Teks yang terlihat dan dapat diklik yang mewakili tautan.\n\n**Jenis Tautan**\n\nAda berbagai jenis tautan yang dapat digunakan di HTML:\n\n* **Tautan Internal:** Menghubungkan ke halaman lain di situs web yang sama.\n* **Tautan Eksternal:** Menghubungkan ke situs web lain.\n* **Tautan Mailto:** Menghubungkan ke alamat email dan membuka klien email.\n* **Tautan Gambar:** Menggunakan gambar sebagai tautan yang dapat diklik.\n\n**Navigasi**\n\nNavigasi adalah proses memungkinkan pengguna untuk berpindah antar halaman dalam sebuah situs web dengan mudah. Ada beberapa cara untuk membuat navigasi dalam HTML:\n\n* **Daftar Tidak Berurutan:** Menggunakan tag `<ul>` untuk membuat daftar tidak berurutan tautan.\n* **Daftar Berurutan:** Menggunakan tag `<ol>` untuk membuat daftar berurutan tautan.\n* **Menu Navigasi:** Menggunakan tag `<nav>` untuk membuat menu navigasi yang lebih terstruktur.\n* **Breadcrumb:** Menyediakan jalur navigasi yang menunjukkan lokasi pengguna saat ini di situs web.\n\n**Tips untuk Tautan dan Navigasi**\n\n* **Buat Teks Tautan yang Bermakna:** Gunakan teks tautan yang jelas dan informatif untuk mengindikasikan tujuan tautan.\n* **Gunakan Tautan dengan Bijak:** Hindari menggunakan tautan yang tidak perlu yang dapat membingungkan pengguna.\n* **Pastikan Tautan Dapat Diakses:** Buat tautan yang dapat diakses oleh pengguna dengan kemampuan yang berbeda-beda.\n* **Optimalkan Navigasi:** Buat sistem navigasi yang intuitif dan mudah dinavigasi.\n* **Uji Tautan dan Navigasi:** Selalu uji tautan dan navigasi untuk memastikan semuanya berfungsi dengan baik.\n\nDengan menggunakan tautan dan navigasi secara efektif, pengembang web dapat membuat situs web yang mudah dinavigasi dan dipahami pengguna."
+    },
+    {
+      "id_course": 13,
+      "id_title_course": 20,
+      "course": "**HTML dan AJAX: Teknologi Penting untuk Web Modern**\n\n**HTML: Dasar Web**\n\nHyperText Markup Language (HTML) adalah landasan web. Ini adalah bahasa markup yang digunakan untuk membuat struktur dan konten halaman web. HTML menyediakan elemen seperti judul, paragraf, dan tautan, memungkinkan pengembang web membangun tata letak halaman dan menampilkan informasi.\n\n**AJAX: Interaksi Asinkron**\n\nAsynchronous JavaScript and XML (AJAX) adalah teknik pemrograman yang memungkinkan situs web berkomunikasi dengan server secara asinkron, tanpa memuat ulang seluruh halaman. Ini memungkinkan pengembang untuk memperbarui sebagian halaman web, seperti memperbarui feed berita atau menampilkan data baru, tanpa mengganggu pengalaman pengguna.\n\n**Bagaimana HTML dan AJAX Bekerja Sama**\n\nHTML dan AJAX bersama-sama menciptakan pengalaman pengguna yang lebih dinamis dan interaktif di web. HTML menyediakan struktur dan konten statis, sementara AJAX memungkinkan pembaruan dinamis dan interaksi pengguna.\n\nMisalnya, pertimbangkan situs web e-commerce yang memungkinkan pengguna menambahkan item ke keranjang belanja. Saat pengguna mengklik tombol \"Tambah ke Keranjang\", AJAX dapat digunakan untuk mengirim permintaan ke server, menambahkan item ke database tanpa memuat ulang seluruh halaman. Pengguna kemudian dapat melihat keranjang mereka yang diperbarui secara instan, memberikan pengalaman yang lebih mulus.\n\n**Keuntungan HTML dan AJAX**\n\nMenggabungkan HTML dan AJAX menawarkan beberapa keuntungan:\n\n* **Pengalaman Pengguna yang Lebih Baik:** AJAX memungkinkan pembaruan dinamis, yang meningkatkan pengalaman pengguna dan mengurangi waktu muat.\n* **Interaktivitas yang Ditingkatkan:** AJAX memungkinkan pembuatan aplikasi web yang lebih interaktif, seperti formulir validasi waktu nyata dan obrolan langsung.\n* **Pengurangan Penggunaan Bandwidth:** Karena AJAX hanya memuat ulang bagian halaman yang diperlukan, situs web dapat mengurangi penggunaan bandwidth dan meningkatkan kinerja.\n* **Pengembangan yang Lebih Efisien:** AJAX memisahkan logika bisnis dari presentasi UI, sehingga memudahkan pengembangan dan pemeliharaan aplikasi web yang kompleks.\n\n**Kesimpulan**\n\nHTML dan AJAX adalah teknologi penting untuk pengembangan web modern. Digunakan bersama-sama, mereka memungkinkan pengembang untuk membuat situs web yang lebih dinamis, interaktif, dan efisien. Memahami prinsip-prinsip ini sangat penting bagi siapa pun yang ingin membangun aplikasi web yang menarik dan responsif."
+    },
+    {
+      "id_course": 14,
+      "id_title_course": 67,
+      "course": "**Pengenalan PHP dan Laravel**\n\nPHP (Hypertext Preprocessor) adalah bahasa pemrograman sisi server yang banyak digunakan untuk pengembangan web. Laravel adalah kerangka kerja PHP terkemuka yang menyediakan berbagai fitur dan alat untuk membangun aplikasi web yang kuat.\n\n**Fitur Utama PHP**\n\n* Bahasa berorientasi objek\n* Mudah dipelajari dan dipahami\n* Kompatibel dengan berbagai sistem operasi\n* Dukungan luas untuk database dan teknologi lainnya\n* Komunitas besar dan dokumentasi yang lengkap\n\n**Fitur Utama Laravel**\n\n**MVC (Model-View-Controller) Arsitektur:** Memisahkan logika bisnis, antarmuka pengguna, dan tampilan data untuk aplikasi yang mudah dikelola.\n\n**Sistem Routing yang Kuat:** Menyediakan cara yang elegan untuk memetakan URL ke pengontrol dan metode, yang memfasilitasi navigasi aplikasi.\n\n**ORM (Object-Relational Mapper):** Memungkinkan interaksi dengan database secara alami dan intuitif.\n\n**Sistem Keamanan Terintegrasi:** Mencakup fitur keamanan penting seperti autentikasi, otorisasi, dan perlindungan CSRF.\n\n**Komunitas dan Dukungan:** Laravel memiliki komunitas yang aktif dan basis dukungan yang luas yang menyediakan bantuan dan sumber daya.\n\n**Manfaat Menggunakan PHP dan Laravel**\n\n* **Pengembangan Cepat:** Laravel mempercepat proses pengembangan dengan templat, komponen, dan alat bantu yang sudah jadi.\n* **Kode yang Bersih dan Terstruktur:** Arsitektur MVC mempromosikan kode yang terorganisir dan mudah dibaca.\n* **Keamanan Tingkat Tinggi:** Fitur keamanan bawaan memberikan perlindungan dari serangan umum.\n* **Komunitas Dukungan:** Akses ke komunitas yang luas dan dokumentasi yang komprehensif memastikan bantuan yang mudah saat dibutuhkan.\n\n**Kesimpulan**\n\nPHP dan Laravel adalah kombinasi yang kuat untuk pengembangan web. PHP menyediakan bahasa yang fleksibel dan ramah pengguna, sementara Laravel menawarkan fitur canggih dan alat bantu yang dapat mempercepat pengembangan, meningkatkan kualitas kode, dan memastikan keamanan aplikasi web. Dengan memilih PHP dan Laravel, pengembang dapat membangun aplikasi web yang tangguh, skalabel, dan aman dengan lebih mudah."
+    },
+    {
+      "id_course": 15,
+      "id_title_course": 65,
+      "course": "**PHP: Alat dan Pustaka untuk Pengembangan Web yang Kuat**\n\nPHP adalah bahasa pemrograman skrip sisi server yang banyak digunakan untuk pengembangan web. Ini dikenal dengan kesederhanaan, fleksibilitas, dan berbagai macam alat dan pustaka yang tersedia.\n\n**Alat**\n\n* **Composer:** Manajer ketergantungan untuk PHP yang memungkinkan Anda menginstal dan memperbarui pustaka pihak ketiga dengan mudah.\n* **PHPUnit:** Kerangka pengujian untuk PHP yang membantu Anda menulis dan menjalankan pengujian unit dan integrasi.\n* **Xdebug:** Alat debugging yang memberikan wawasan berharga tentang kode Anda, seperti tumpukan panggilan dan variabel.\n* **Laravel Artisan:** Command-line interface (CLI) yang disertakan dengan kerangka Laravel yang menyediakan perintah umum untuk tugas-tugas pengembangan.\n* **Symfony Profiler:** Alat profil yang membantu mengidentifikasi kemacetan kinerja dalam aplikasi PHP Anda.\n\n**Pustaka**\n\nPustaka PHP adalah koleksi fungsi dan kelas yang dapat digunakan kembali yang menyediakan fungsionalitas umum. Berikut adalah beberapa pustaka yang paling umum digunakan:\n\n* **jQuery:** Pustaka JavaScript untuk selektor DOM, animasi, dan penanganan acara.\n* **Bootstrap:** Kerangka CSS responsif untuk membuat situs web yang ramah seluler.\n* **Laravel:** Kerangka pengembangan web PHP yang menyediakan fitur umum seperti routing, ORM, dan autentikasi.\n* **Symfony:** Kerangka MVC PHP yang menawarkan banyak komponen untuk tugas-tugas seperti routing, validasi, dan manajemen formulir.\n* **Zend Framework:** Kerangka kerja PHP yang menyediakan komponen berkualitas perusahaan untuk hal-hal seperti ORM, caching, dan keamanan.\n\n**Manfaat Menggunakan Alat dan Pustaka PHP**\n\n* Meningkatkan produktivitas dengan mengotomatiskan tugas umum.\n* Meningkatkan kualitas kode dengan menyediakan fungsionalitas yang telah diuji dan terdokumentasi dengan baik.\n* Mengurangi waktu pengembangan dengan menghilangkan kebutuhan untuk menulis ulang kode umum.\n* Meningkatkan keamanan dengan memanfaatkan praktik terbaik dan pembaruan keamanan dari pustaka terpelihara.\n* Memfasilitasi kolaborasi dengan memungkinkan pengembang untuk berbagi dan menggunakan kode yang dapat digunakan kembali.\n\n**Kesimpulan**\n\nAlat dan pustaka PHP adalah sumber daya yang sangat berharga untuk pengembangan web. Mereka dapat sangat meningkatkan produktivitas, kualitas kode, keamanan, dan kolaborasi. Dengan memanfaatkan alat dan pustaka yang tepat, pengembang dapat membangun aplikasi web yang lebih kuat dan efisien."
     }
   ]
 }
