@@ -1,0 +1,169 @@
+/* Global Typography Settings */
+html {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333; /* Default body text color */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 1rem !important;
+    font-weight: bold !important;
+    line-height: 1.2 !important;
+    color: #2c3e50 !important;
+}
+
+/* Headings size */
+h1 {
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+    color: #1a1a1a !important;
+}
+
+h2 {
+    font-size: 2.5rem !important;
+    font-weight: 600 !important;
+    color: #1a1a1a !important;
+}
+
+h3 {
+    font-size: 2rem !important;
+    font-weight: 500 !important;
+    color: #1a1a1a !important;
+}
+
+h4 {
+    font-size: 1.75rem !important;
+    font-weight: 500 !important;
+    color: #1a1a1a !important;
+}
+
+h5 {
+    font-size: 1.5rem !important;
+    font-weight: 500 !important;
+    color: #1a1a1a !important;
+}
+
+h6 {
+    font-size: 1.25rem !important;
+    font-weight: 500 !important;
+    color: #1a1a1a !important;
+}
+
+/* Paragraphs */
+p {
+    margin: 0 0 1.5rem !important;
+    font-size: 1rem !important;
+    line-height: 1.75 !important;
+    color: #4a4a4a !important;
+}
+
+/* Links */
+a {
+    color: #3498db !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease !important;
+}
+
+a:hover {
+    color: #2980b9 !important;
+    text-decoration: underline !important;
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 1.5rem 0 !important;
+    padding: 1rem 1.5rem !important;
+    border-left: 5px solid #3498db !important;
+    background-color: #f9f9f9 !important;
+    font-style: italic !important;
+    color: #555 !important;
+    font-size: 1.1rem !important;
+}
+
+/* Lists */
+ul {
+    margin: 0 0 1.5rem !important;
+    padding-left: 1.5rem !important;
+    list-style-type: disc !important; /* Set list bullets to disc */
+    color: #4a4a4a !important;
+}
+
+ul li {
+    margin-bottom: 0.75rem !important;
+}
+
+/* Ordered lists */
+ol {
+    margin: 0 0 1.5rem !important;
+    padding-left: 1.5rem !important;
+    color: #4a4a4a !important;
+}
+
+/* Small Text */
+small {
+    font-size: 0.85rem !important;
+    color: #999 !important;
+}
+
+/* Bold and Italics */
+strong {
+    font-weight: 700 !important;
+    color: #333 !important;
+}
+
+em {
+    font-style: italic !important;
+    color: #666 !important;
+}
+
+/* Code Blocks */
+code {
+    font-family: 'Courier New', Courier, monospace !important;
+    background-color: #f1f1f1 !important;
+    padding: 0.2rem 0.4rem !important;
+    border-radius: 4px !important;
+    font-size: 0.95rem !important;
+    color: #c7254e !important;
+    word-wrap: break-word;
+}
+
+/* Responsive Typography Adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.25rem !important;
+    }
+
+    h2 {
+        font-size: 2rem !important;
+    }
+
+    h3 {
+        font-size: 1.75rem !important;
+    }
+
+    p {
+        font-size: 0.95rem !important;
+        line-height: 1.6 !important;
+    }
+
+    blockquote {
+        font-size: 1rem !important;
+    }
+}
+
+/* Additional Styling for Captions, and Preformatted Text */
+caption {
+    font-size: 0.9rem !important;
+    font-style: italic !important;
+    color: #777 !important;
+}
+
+pre {
+    background-color: #f1f1f1 !important;
+    padding: 1rem !important;
+    border-radius: 5px !important;
+    overflow-x: auto !important;
+    font-size: 0.9rem !important;
+    color: #333 !important;
+}

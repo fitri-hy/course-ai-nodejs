@@ -11,7 +11,9 @@
   "description": "Kursus Online Bersama AI adalah program pembelajaran inovatif yang menggabungkan kecerdasan buatan dengan pengalaman belajar yang interaktif.",
   "dependencies": {
     "axios": "^1.7.7",
+    "axios-retry": "^4.5.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "fast-levenshtein": "^3.0.0",
     "nodemon": "^3.1.7"

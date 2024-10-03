@@ -2,557 +2,321 @@
   "query": [
     {
       "id_query": 1,
-      "query": "Javascript"
-    },
-    {
-      "id_query": 2,
       "query": "HTML"
     },
     {
+      "id_query": 2,
+      "query": "Javascript"
+    },
+    {
       "id_query": 3,
-      "query": "htm"
-    },
-    {
-      "id_query": 4,
-      "query": "xhtml"
-    },
-    {
-      "id_query": 5,
       "query": "PHP"
     }
   ],
   "title_course": [
     {
       "id_title_course": 1,
-      "title": "Javascript | Pengantar JavaScript"
-    },
-    {
-      "id_title_course": 2,
-      "title": "Javascript | Dasar-dasar JavaScript"
-    },
-    {
-      "id_title_course": 3,
-      "title": "Javascript | Variabel dan Tipe Data"
-    },
-    {
-      "id_title_course": 4,
-      "title": "Javascript | Operator dan Struktur Kontrol"
-    },
-    {
-      "id_title_course": 5,
-      "title": "Javascript | Fungsi dan Objek"
-    },
-    {
-      "id_title_course": 6,
-      "title": "Javascript | JavaScript Lanjutan"
-    },
-    {
-      "id_title_course": 7,
-      "title": "Javascript | Pemrograman Berorientasi Objek"
-    },
-    {
-      "id_title_course": 8,
-      "title": "Javascript | Array dan Objek Array"
-    },
-    {
-      "id_title_course": 9,
-      "title": "Javascript | Penanganan Kesalahan dan Debugging"
-    },
-    {
-      "id_title_course": 10,
-      "title": "Javascript | Asinkronitas dan Promise"
-    },
-    {
-      "id_title_course": 11,
-      "title": "Javascript | DOM dan Event"
-    },
-    {
-      "id_title_course": 12,
-      "title": "Javascript | Pendahuluan tentang DOM"
-    },
-    {
-      "id_title_course": 13,
-      "title": "Javascript | Memanipulasi DOM"
-    },
-    {
-      "id_title_course": 14,
-      "title": "Javascript | Event dan Penanganan Event"
-    },
-    {
-      "id_title_course": 15,
-      "title": "Javascript | Selektor CSS dan Query"
-    },
-    {
-      "id_title_course": 16,
-      "title": "Javascript | AJAX dan Pemrosesan Sisi Server"
-    },
-    {
-      "id_title_course": 17,
-      "title": "Javascript | Pengantar AJAX"
-    },
-    {
-      "id_title_course": 18,
-      "title": "Javascript | Meminta dan Mengirim Data"
-    },
-    {
-      "id_title_course": 19,
-      "title": "Javascript | JSON dan XML"
-    },
-    {
-      "id_title_course": 20,
-      "title": "Javascript | Pemrosesan Sisi Server dengan Node.js"
-    },
-    {
-      "id_title_course": 21,
-      "title": "Javascript | Aspek Lanjutan JavaScript"
-    },
-    {
-      "id_title_course": 22,
-      "title": "Javascript | React"
-    },
-    {
-      "id_title_course": 23,
-      "title": "Javascript | Vue.js"
-    },
-    {
-      "id_title_course": 24,
-      "title": "Javascript | Angular"
-    },
-    {
-      "id_title_course": 25,
-      "title": "Javascript | MongoDB dan JavaScript"
-    },
-    {
-      "id_title_course": 26,
-      "title": "Javascript | Pen тестиdengan JavaScript"
-    },
-    {
-      "id_title_course": 27,
-      "title": "Javascript | Pemrograman Game"
-    },
-    {
-      "id_title_course": 28,
-      "title": "Javascript | Dasar-dasar Pemrograman Game"
-    },
-    {
-      "id_title_course": 29,
-      "title": "Javascript | Canvas dan WebGL"
-    },
-    {
-      "id_title_course": 30,
-      "title": "Javascript | Deteksi Tabrakan dan Fisika"
-    },
-    {
-      "id_title_course": 31,
-      "title": "Javascript | Pengembangan Game Seluler"
-    },
-    {
-      "id_title_course": 1,
-      "title": "HTML | Judul Pembelajaran HTML"
-    },
-    {
-      "id_title_course": 2,
       "title": "HTML | Dasar-dasar HTML"
     },
     {
-      "id_title_course": 3,
-      "title": "HTML | Struktur Dokumen HTML"
-    },
-    {
-      "id_title_course": 4,
-      "title": "HTML | Elemen dan Tag HTML"
-    },
-    {
-      "id_title_course": 5,
-      "title": "HTML | Pemformatan Teks dan Tata Letak"
-    },
-    {
-      "id_title_course": 6,
-      "title": "HTML | Penghubung dan Gambar"
-    },
-    {
-      "id_title_course": 7,
-      "title": "HTML | Formulir dan Input"
-    },
-    {
-      "id_title_course": 8,
-      "title": "HTML | Tabel dan Daftar"
-    },
-    {
-      "id_title_course": 9,
-      "title": "HTML | Gaya CSS dalam HTML"
-    },
-    {
-      "id_title_course": 10,
-      "title": "HTML | HTML Semantik dan Aksesibilitas"
-    },
-    {
-      "id_title_course": 11,
-      "title": "HTML | HTML Responsif untuk Seluler"
-    },
-    {
-      "id_title_course": 12,
-      "title": "HTML | Pengenalan HTML5"
-    },
-    {
-      "id_title_course": 13,
-      "title": "HTML | Praktik Terbaik HTML"
-    },
-    {
-      "id_title_course": 14,
-      "title": "HTML | Proyek Pembuatan Website HTML"
-    },
-    {
-      "id_title_course": 15,
-      "title": "HTML | Pemecahan Masalah dan Tips"
-    },
-    {
-      "id_title_course": 1,
-      "title": "htm | Dasar-dasar HTML"
-    },
-    {
       "id_title_course": 2,
-      "title": "htm | Pengenalan HTML"
+      "title": "HTML | Pengenalan HTML"
     },
     {
       "id_title_course": 3,
-      "title": "htm | Struktur Dokumen HTML"
+      "title": "HTML | Struktur HTML"
     },
     {
       "id_title_course": 4,
-      "title": "htm | Tag dan Atribut HTML"
+      "title": "HTML | Tag HTML Esensial"
     },
     {
       "id_title_course": 5,
-      "title": "htm | Menambahkan Konten ke Halaman HTML"
+      "title": "HTML | Atribut HTML"
     },
     {
       "id_title_course": 6,
-      "title": "htm | Memformat Teks"
+      "title": "HTML | Desain Halaman Web"
     },
     {
       "id_title_course": 7,
-      "title": "htm | Struktur dan Tata Letak"
+      "title": "HTML | Tata Letak Halaman"
     },
     {
       "id_title_course": 8,
-      "title": "htm | Penggunaan Header dan Footer"
+      "title": "HTML | Tautan dan Navigasi"
     },
     {
       "id_title_course": 9,
-      "title": "htm | Pengelompokan Konten dengan Div dan Section"
+      "title": "HTML | Tabel dan Formulir"
     },
     {
       "id_title_course": 10,
-      "title": "htm | Membuat Tabel dan Daftar"
+      "title": "HTML | Gambar dan Multimedia"
     },
     {
       "id_title_course": 11,
-      "title": "htm | Mengontrol Tata Letak dengan CSS (Opsional)"
+      "title": "HTML | Penggayaan HTML"
     },
     {
       "id_title_course": 12,
-      "title": "htm | Tautan dan Navigasi"
+      "title": "HTML | CSS untuk Pemula"
     },
     {
       "id_title_course": 13,
-      "title": "htm | Menambahkan Tautan ke Halaman Lain"
+      "title": "HTML | Selektor CSS"
     },
     {
       "id_title_course": 14,
-      "title": "htm | Membuat Menu Navigasi"
+      "title": "HTML | Properti CSS"
     },
     {
       "id_title_course": 15,
-      "title": "htm | Menggunakan Tautan Jangkar"
+      "title": "HTML | Model Kotak CSS"
     },
     {
       "id_title_course": 16,
-      "title": "htm | Formulir dan Input"
+      "title": "HTML | Pemrograman HTML"
     },
     {
       "id_title_course": 17,
-      "title": "htm | Membuat Formulir Dasar"
+      "title": "HTML | JavaScript Dasar"
     },
     {
       "id_title_course": 18,
-      "title": "htm | Menambahkan Input Teks, Area Teks, dan Tombol"
+      "title": "HTML | Acara dan Penanganan Acara"
     },
     {
       "id_title_course": 19,
-      "title": "htm | Menangani Input Pengguna"
+      "title": "HTML | Objek DOM"
     },
     {
       "id_title_course": 20,
-      "title": "htm | Multimedia"
+      "title": "HTML | AJAX"
     },
     {
       "id_title_course": 21,
-      "title": "htm | Menyematkan Gambar dan Video"
+      "title": "HTML | HTML Lanjutan"
     },
     {
       "id_title_course": 22,
-      "title": "htm | Menggunakan Audio dan Canvas"
+      "title": "HTML | HTML5 Fitur Baru"
     },
     {
       "id_title_course": 23,
-      "title": "htm | Pengoptimalan dan Aksesibilitas"
+      "title": "HTML | Web Semantik"
     },
     {
       "id_title_course": 24,
-      "title": "htm | Mengoptimalkan Halaman untuk Perangkat Seluler"
+      "title": "HTML | Kegunaan dan Aksesibilitas"
     },
     {
       "id_title_course": 25,
-      "title": "htm | Memastikan Aksesibilitas untuk Segala Jenis Pengguna"
+      "title": "HTML | Validasi HTML"
     },
     {
       "id_title_course": 26,
-      "title": "htm | Sumber Daya Lanjutan"
+      "title": "Javascript | Pembelajaran Javascript"
     },
     {
       "id_title_course": 27,
-      "title": "htm | Referensi HTML Praktis"
+      "title": "Javascript | Pengenalan Javascript"
     },
     {
       "id_title_course": 28,
-      "title": "htm | Dokumentasi HTML MDN"
+      "title": "Javascript | Tipe Data dan Struktur Data"
     },
     {
       "id_title_course": 29,
-      "title": "htm | Tutorial dan Kelas Online HTML"
-    },
-    {
-      "id_title_course": 1,
-      "title": "xhtml | Elemen Dasar XHTML"
-    },
-    {
-      "id_title_course": 2,
-      "title": "xhtml | Struktur Dokumen XHTML"
-    },
-    {
-      "id_title_course": 3,
-      "title": "xhtml | Tag Heading dan Paragraph"
-    },
-    {
-      "id_title_course": 4,
-      "title": "xhtml | Tag Tautan dan Gambar"
-    },
-    {
-      "id_title_course": 5,
-      "title": "xhtml | Formulir di XHTML"
-    },
-    {
-      "id_title_course": 6,
-      "title": "xhtml | Validasi XHTML"
-    },
-    {
-      "id_title_course": 7,
-      "title": "xhtml | Cascading Style Sheets (CSS) dan XHTML"
-    },
-    {
-      "id_title_course": 8,
-      "title": "xhtml | Pembuatan Tata Letak dengan XHTML"
-    },
-    {
-      "id_title_course": 9,
-      "title": "xhtml | Menggunakan Form dan Input di XHTML"
-    },
-    {
-      "id_title_course": 10,
-      "title": "xhtml | Menampilkan Data Tabel dengan XHTML"
-    },
-    {
-      "id_title_course": 11,
-      "title": "xhtml | Acessibilitas di XHTML"
-    },
-    {
-      "id_title_course": 12,
-      "title": "xhtml | Optimasi XHTML untuk Mesin Pencari"
-    },
-    {
-      "id_title_course": 1,
-      "title": "PHP | Pengantar PHP"
-    },
-    {
-      "id_title_course": 2,
-      "title": "PHP | Apa itu PHP?"
-    },
-    {
-      "id_title_course": 3,
-      "title": "PHP | Menginstal PHP"
-    },
-    {
-      "id_title_course": 4,
-      "title": "PHP | Struktur Dasar PHP"
-    },
-    {
-      "id_title_course": 5,
-      "title": "PHP | Tipe Data dan Operator"
-    },
-    {
-      "id_title_course": 6,
-      "title": "PHP | Tipe Data Dasar"
-    },
-    {
-      "id_title_course": 7,
-      "title": "PHP | Operator Aritmatika"
-    },
-    {
-      "id_title_course": 8,
-      "title": "PHP | Operator Logika"
-    },
-    {
-      "id_title_course": 9,
-      "title": "PHP | Operator Perbandingan"
-    },
-    {
-      "id_title_course": 10,
-      "title": "PHP | Struktur Kontrol"
-    },
-    {
-      "id_title_course": 11,
-      "title": "PHP | Struktur If-Else"
-    },
-    {
-      "id_title_course": 12,
-      "title": "PHP | Struktur Switch-Case"
-    },
-    {
-      "id_title_course": 13,
-      "title": "PHP | Struktur Loop (For, While, Do-While)"
-    },
-    {
-      "id_title_course": 14,
-      "title": "PHP | Fungsi dan Array"
-    },
-    {
-      "id_title_course": 15,
-      "title": "PHP | Mendefinisikan Fungsi"
-    },
-    {
-      "id_title_course": 16,
-      "title": "PHP | Parameter dan Argumen Fungsi"
-    },
-    {
-      "id_title_course": 17,
-      "title": "PHP | Mengenal Array"
-    },
-    {
-      "id_title_course": 18,
-      "title": "PHP | Mengakses dan Memodifikasi Array"
-    },
-    {
-      "id_title_course": 19,
-      "title": "PHP | Form Handling"
-    },
-    {
-      "id_title_course": 20,
-      "title": "PHP | Membuat Formulir HTML"
-    },
-    {
-      "id_title_course": 21,
-      "title": "PHP | Menerima Input Formulir dengan PHP"
-    },
-    {
-      "id_title_course": 22,
-      "title": "PHP | Memvalidasi Input Formulir"
-    },
-    {
-      "id_title_course": 23,
-      "title": "PHP | Database Koneksi"
-    },
-    {
-      "id_title_course": 24,
-      "title": "PHP | Terhubung ke Database dengan MySQLi"
-    },
-    {
-      "id_title_course": 25,
-      "title": "PHP | Menjalankan Query"
-    },
-    {
-      "id_title_course": 26,
-      "title": "PHP | Mengambil dan Menampilkan Data"
-    },
-    {
-      "id_title_course": 27,
-      "title": "PHP | Cookie dan Session"
-    },
-    {
-      "id_title_course": 28,
-      "title": "PHP | Mengenal Cookie dan Session"
-    },
-    {
-      "id_title_course": 29,
-      "title": "PHP | Membuat dan Mengelola Cookie"
+      "title": "Javascript | Operator dan Ekspresi"
     },
     {
       "id_title_course": 30,
-      "title": "PHP | Membuat dan Mengelola Session"
+      "title": "Javascript | Pengendalian Alur"
     },
     {
       "id_title_course": 31,
-      "title": "PHP | Keamanan PHP"
+      "title": "Javascript | Fungsi"
     },
     {
       "id_title_course": 32,
-      "title": "PHP | Injeksi SQL"
+      "title": "Javascript | Array dan Objek"
     },
     {
       "id_title_course": 33,
-      "title": "PHP | Cross-Site Scripting (XSS)"
+      "title": "Javascript | DOM dan Event"
     },
     {
       "id_title_course": 34,
-      "title": "PHP | Perlindungan CSRF"
+      "title": "Javascript | Asinkronitas dan Janji"
     },
     {
       "id_title_course": 35,
-      "title": "PHP | Pengelolaan File"
+      "title": "Javascript | ES6 dan Fitur Baru"
     },
     {
       "id_title_course": 36,
-      "title": "PHP | Membaca dan Menulis File"
+      "title": "Javascript | Pengujian Unit"
     },
     {
       "id_title_course": 37,
-      "title": "PHP | Mengunggah File"
+      "title": "Javascript | Pola Desain"
     },
     {
       "id_title_course": 38,
-      "title": "PHP | Menghapus File"
+      "title": "Javascript | Pengembangan Web Lanjutan"
     },
     {
       "id_title_course": 39,
-      "title": "PHP | Topik Lanjutan"
+      "title": "Javascript | Proyek Javascript"
     },
     {
       "id_title_course": 40,
-      "title": "PHP | Pemrograman Berorientasi Objek (OOP)"
+      "title": "PHP | Pendahuluan"
     },
     {
       "id_title_course": 41,
-      "title": "PHP | Kerangka Kerja MVC"
+      "title": "PHP | Pengenalan PHP"
     },
     {
       "id_title_course": 42,
-      "title": "PHP | Pengujian Unit"
+      "title": "PHP | Menginstal dan Mengatur PHP"
     },
     {
       "id_title_course": 43,
-      "title": "PHP | Debug PHP"
+      "title": "PHP | Dasar-Dasar PHP"
+    },
+    {
+      "id_title_course": 44,
+      "title": "PHP | Sintaksis Dasar"
+    },
+    {
+      "id_title_course": 45,
+      "title": "PHP | Tipe Data dan Variable"
+    },
+    {
+      "id_title_course": 46,
+      "title": "PHP | Operator dan Kontrol Alur"
+    },
+    {
+      "id_title_course": 47,
+      "title": "PHP | Fungsi dan Array"
+    },
+    {
+      "id_title_course": 48,
+      "title": "PHP | Interaksi Database"
+    },
+    {
+      "id_title_course": 49,
+      "title": "PHP | MySQLi"
+    },
+    {
+      "id_title_course": 50,
+      "title": "PHP | PDO"
+    },
+    {
+      "id_title_course": 51,
+      "title": "PHP | Pengembangan Web"
+    },
+    {
+      "id_title_course": 52,
+      "title": "PHP | HTML dan PHP"
+    },
+    {
+      "id_title_course": 53,
+      "title": "PHP | CSS dan PHP"
+    },
+    {
+      "id_title_course": 54,
+      "title": "PHP | JavaScript dan PHP"
+    },
+    {
+      "id_title_course": 55,
+      "title": "PHP | Kerangka Kerja PHP"
+    },
+    {
+      "id_title_course": 56,
+      "title": "PHP | Kemajuan"
+    },
+    {
+      "id_title_course": 57,
+      "title": "PHP | ООП dalam PHP"
+    },
+    {
+      "id_title_course": 58,
+      "title": "PHP | MVC"
+    },
+    {
+      "id_title_course": 59,
+      "title": "PHP | Keamanan PHP"
+    },
+    {
+      "id_title_course": 60,
+      "title": "PHP | Optimasi Kinerja"
+    },
+    {
+      "id_title_course": 61,
+      "title": "PHP | Proyek"
+    },
+    {
+      "id_title_course": 62,
+      "title": "PHP | Membangun Sistem Blog"
+    },
+    {
+      "id_title_course": 63,
+      "title": "PHP | Mengembangkan Toko Online"
+    },
+    {
+      "id_title_course": 64,
+      "title": "PHP | Membuat Aplikasi CRUD"
+    },
+    {
+      "id_title_course": 65,
+      "title": "PHP | Tools dan Pustaka"
+    },
+    {
+      "id_title_course": 66,
+      "title": "PHP | Composer"
+    },
+    {
+      "id_title_course": 67,
+      "title": "PHP | Laravel"
+    },
+    {
+      "id_title_course": 68,
+      "title": "PHP | CodeIgniter"
     }
   ],
   "course": [
     {
       "id_course": 1,
-      "id_title_course": 9,
-      "course": "**HTML (HyperText Markup Language)**\n\n* Bahasa markup yang digunakan untuk membuat struktur dan konten halaman web.\n* Mendefinisikan struktur halaman dengan tag-tag yang menandai bagian-bagian halaman (misalnya, judul, paragraf, daftar).\n* Menyematkan konten seperti teks, gambar, dan video.\n\n**Gaya CSS (Cascading Style Sheets)**\n\n* Bahasa pemrograman yang digunakan untuk mengatur presentasi halaman web (tampilan dan tata letak).\n* Mendefinisikan aturan gaya yang diterapkan pada elemen HTML.\n* Mengontrol properti visual seperti warna, font, ukuran, dan tata letak.\n\n**Menyatukan HTML dan CSS**\n\n* Gaya CSS ditautkan ke dokumen HTML menggunakan tag `<link>` di bagian `<head>`.\n* Aturan gaya CSS didefinisikan dalam file terpisah dengan ekstensi `.css`.\n* Gaya CSS dapat diterapkan pada elemen HTML menggunakan properti `class` atau `id`.\n\n**Contoh**\n\nBerikut adalah contoh sederhana yang menggabungkan HTML dan CSS:\n\n**Kode HTML:**\n\n```html\n<!DOCTYPE html>\n<html>\n<head>\n  <link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n  <h1>Judul Halaman</h1>\n  <p>Paragraf ini ditulis dengan paragraf.</p>\n</body>\n</html>\n```\n\n**Kode CSS:**\n\n```css\nh1 {\n  color: #000;\n  font-size: 24px;\n}\n\np {\n  color: #666;\n  font-size: 16px;\n}\n```\n\n**Hasil:**\n\nKetika HTML dan CSS digabungkan, judul halaman akan ditampilkan dalam warna hitam dengan ukuran font 24px, dan paragraf akan ditampilkan dalam warna abu-abu dengan ukuran font 16px.\n\n**Keuntungan Menggunakan CSS**\n\n* **Pemisahan Struktur dan Gaya:** HTML menentukan struktur halaman, sementara CSS mengontrol tampilannya.\n* **Penghematan Waktu:** Perubahan gaya dapat dilakukan dengan mudah dengan mengedit file CSS, tanpa perlu memodifikasi HTML.\n* **Konsistensi:** CSS memastikan tampilan halaman yang konsisten di semua browser.\n* **Aksesibilitas:** CSS dapat digunakan untuk meningkatkan aksesibilitas halaman web dengan mengontrol ukuran font, warna, dan tata letak."
+      "id_title_course": 44,
+      "course": "## PHP | Sintaksis Dasar\n\nPHP (Hypertext Preprocessor) adalah bahasa pemrograman yang khusus digunakan untuk pengembangan web. Sintaksis dasar PHP hampir mirip dengan bahasa pemrograman C dan Java.\n\n### Struktur Dasar\n```php\n<?php\n// Kode PHP di sini\n?>\n```\n\n### Tipe Data\nPHP memiliki beberapa tipe data dasar, seperti:\n\n- Bilangan bulat (integer)\n- Bilangan desimal (float)\n- String\n- Boolean (true/false)\n- Array\n\n### Variabel\nVariabel digunakan untuk menyimpan nilai dalam PHP. Untuk membuat variabel, gunakan tanda dollar ($).\n\n```php\n$nama = \"John Doe\";\n$usia = 25;\n```\n\n### Konstanta\nKonstanta digunakan untuk menyimpan nilai yang tidak boleh diubah. Untuk membuat konstanta, gunakan fungsi `define()`.\n\n```php\ndefine(\"NAMA\", \"John Doe\");\n```\n\n### Operator\nPHP mendukung berbagai operator, seperti:\n\n- Operator aritmatika (misalnya +, -, *, /)\n- Operator perbandingan (misalnya ==, !=, <, >)\n- Operator logis (misalnya &&, ||, !)\n\n### Struktur Kontrol\nStruktur kontrol digunakan untuk mengontrol aliran eksekusi program. Beberapa struktur kontrol umum meliputi:\n\n- Kondisi if-else\n- Perulangan for\n- Perulangan while\n- Perulangan foreach\n\nDengan memahami sintaksis dasar PHP, Anda dapat mulai menulis program PHP sederhana untuk pengembangan web."
     },
     {
       "id_course": 2,
-      "id_title_course": 8,
-      "course": "**Tabel HTML**\n\nTabel HTML digunakan untuk menampilkan data dalam baris dan kolom terstruktur.\n\n**Sintaks:**\n\n```html\n<table>\n  <caption>Judul tabel (opsional)</caption>\n  <thead>\n    <tr>\n      <th>Header kolom</th>\n      <th>Header kolom</th>\n      <th>...</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Data baris</td>\n      <td>Data baris</td>\n      <td>...</td>\n    </tr>\n    <tr>\n      <td>...</td>\n      <td>...</td>\n      <td>...</td>\n    </tr>\n  </tbody>\n  <tfoot>\n    <tr>\n      <td>Footer kolom</td>\n      <td>Footer kolom</td>\n      <td>...</td>\n    </tr>\n  </tfoot>\n</table>\n```\n\n**Atribut:**\n\n* **border:** Lebar border tabel dalam piksel\n* **cellpadding:** Jarak antara batas sel dan konten sel\n* **cellspacing:** Jarak antara sel-sel\n* **align:** Perataan teks dalam sel\n\n**Daftar HTML**\n\nDaftar HTML digunakan untuk menampilkan item-item dalam urutan.\n\n**Jenis Daftar:**\n\n* **Daftar Tidak Berurutan:** Menggunakan <ul>\n* **Daftar Berurutan:** Menggunakan <ol>\n\n**Sintaks:**\n\n```html\n<ul>\n  <li>Item daftar</li>\n  <li>Item daftar</li>\n  <li>...</li>\n</ul>\n\n<ol>\n  <li>Item daftar</li>\n  <li>Item daftar</li>\n  <li>...</li>\n</ol>\n```\n\n**Atribut:**\n\n* **type:** Jenis daftar (untuk <ol>)\n* **start:** Nomor awal untuk daftar berurutan\n* **compact:** Membuat daftar tanpa bullet atau nomor\n\n**Tips Profesional:**\n\n* Gunakan tabel untuk data yang terstruktur dengan jelas.\n* Gunakan daftar tidak berurutan untuk item yang tidak berurutan atau kategori.\n* Gunakan daftar berurutan untuk item yang harus berada dalam urutan tertentu.\n* Format tabel dan daftar menggunakan CSS untuk meningkatkan tampilan.\n* Gunakan atribut untuk menyesuaikan tampilan dan perilaku tabel/daftar.\n* Validasi kode HTML Anda untuk memastikan sintaks yang benar."
+      "id_title_course": 49,
+      "course": "## PHP | MySQLi\n\nMySQLi adalah salah satu ekstensi PHP yang digunakan untuk terhubung dan berinteraksi dengan database MySQL. Ekstensi ini menawarkan antarmuka prosedural dan berorientasi objek untuk melakukan berbagai operasi basis data.\n\n**Keuntungan MySQLi**\n\n* **Performa yang Dioptimalkan:** MySQLi lebih cepat dan efisien daripada ekstensi mysqli sebelumnya, sehingga cocok untuk aplikasi dengan lalu lintas tinggi.\n* **Dukungan Transaksi:** MySQLi mendukung transaksi eksplisit, memungkinkan Anda melakukan serangkaian operasi basis data dan membatalkannya jika terjadi kesalahan.\n* **Antarmuka Berorientasi Objek:** Antarmuka berorientasi objek MySQLi menyediakan akses yang mudah dan konsisten ke objek database, membuat pengembangan menjadi lebih sederhana.\n* **Syntax yang Mudah:** Sintaksis MySQLi mirip dengan fungsi MySQL sebelumnya, sehingga memudahkan transisi bagi pengembang yang sudah ada.\n\n**Cara Menggunakan MySQLi**\n\nUntuk menggunakan MySQLi, Anda perlu menambahkan ekstensi ke proyek Anda dan membuat objek koneksi. Berikut ini contoh penggunaan antarmuka prosedural:\n\n```php\n$mysqli = mysqli_connect(\"host\", \"username\", \"password\", \"database\");\nif ($mysqli->connect_errno) {\n    echo \"Koneksi gagal: \" . $mysqli->connect_error;\n}\n```\n\n**Membuat Query**\n\nSetelah membuat koneksi, Anda dapat menjalankan query SQL menggunakan `mysqli_query()`. Misalnya, untuk mengambil data dari tabel 'users':\n\n```php\n$result = $mysqli->query(\"SELECT * FROM users\");\n```\n\n**Memproses Hasil**\n\nHasil kueri dikembalikan sebagai objek `mysqli_result`, dan Anda dapat memroses barisnya menggunakan `mysqli_fetch_row()` atau `mysqli_fetch_assoc()`.\n\n**Menutup Koneksi**\n\nSetelah selesai berinteraksi dengan database, penting untuk menutup koneksi menggunakan `mysqli_close()`. Ini akan melepaskan sumber daya dan mencegah kebocoran memori.\n\nMySQLi adalah ekstensi PHP yang andal dan efisien untuk menangani operasi basis data MySQL. Dengan antarmuka yang mudah digunakan, performa yang dioptimalkan, dan dukungan untuk transaksi, MySQLi merupakan pilihan yang tepat untuk berbagai aplikasi berbasis data."
+    },
+    {
+      "id_course": 3,
+      "id_title_course": 50,
+      "course": "## PHP | PDO\n\n### Pengantar\n\nPDO (PHP Data Objects) adalah ekstensi PHP yang menyediakan antarmuka terpadu untuk berinteraksi dengan database. Ini menyederhanakan proses koneksi database, eksekusi kueri, dan pengambilan data.\n\n### Koneksi Database\n\n```php\n$dsn = 'mysql:host=localhost;dbname=database_name';\n$user = 'username';\n$password = 'password';\n\ntry {\n    $pdo = new PDO($dsn, $user, $password);\n} catch (PDOException $e) {\n    echo \"Koneksi gagal: \" . $e->getMessage();\n}\n```\n\n### Eksekusi Kueri\n\n```php\n$stmt = $pdo->prepare(\"SELECT * FROM users WHERE id = ?\");\n$stmt->execute([1]);\n\n$result = $stmt->fetchAll();\n```\n\n### Pengambilan Data\n\n```php\nforeach ($result as $row) {\n    echo \"ID: \" . $row['id'] . \", Nama: \" . $row['nama'];\n}\n```\n\n### Keuntungan PDO\n\n* Antarmuka terpadu untuk berbagai basis data (MySQL, PostgreSQL, Oracle, dll.)\n* Peningkatan keamanan melalui parameter yang disiapkan\n* Dukungan untuk transaksi\n* Pengurangan kebutuhan untuk menangani kesalahan basis data secara manual\n\n### Kesimpulan\n\nPDO adalah alat yang kuat untuk bekerja dengan database di PHP. Ini menyediakan antarmuka yang terpadu dan efisien, meningkatkan keamanan dan skalabilitas aplikasi."
+    },
+    {
+      "id_course": 4,
+      "id_title_course": 66,
+      "course": "## Composer: Manajer Ketergantungan untuk PHP\n\nComposer adalah manajer ketergantungan untuk PHP yang memungkinkan Anda mengelola dan menginstal pustaka pihak ketiga untuk proyek Anda dengan mudah.\n\n### Cara Memasang Composer\n\nUntuk memasang Composer, jalankan perintah berikut di terminal:\n\n```bash\ncurl -sS https://getcomposer.org/installer | php\n```\n\nIni akan mengunduh dan menginstal Composer secara global.\n\n### Membuat Proyek Composer\n\nUntuk membuat proyek Composer baru, buat file `composer.json` di direktori proyek Anda dengan konten berikut:\n\n```json\n{\n    \"name\": \"my-project\",\n    \"require\": {\n        \"vendor/paket\": \"^1.0.0\"\n    }\n}\n```\n\nDi sini, `vendor/paket` adalah nama pustaka yang ingin Anda instal, dan `^1.0.0` adalah versi pustaka yang diperlukan.\n\n### Menginstal Ketergantungan\n\nUntuk menginstal ketergantungan yang ditentukan dalam file `composer.json`, jalankan perintah berikut:\n\n```bash\ncomposer install\n```\n\nIni akan mengunduh dan menginstal pustaka dan semua ketergantungannya.\n\n### Memperbarui Ketergantungan\n\nUntuk memperbarui ketergantungan Anda ke versi terbaru yang tersedia, jalankan perintah berikut:\n\n```bash\ncomposer update\n```\n\nIni akan memeriksa pembaruan untuk semua pustaka yang diinstal dan menginstal versi terbaru.\n\n### Menghapus Ketergantungan\n\nUntuk menghapus ketergantungan, edit file `composer.json` dan hapus entri untuk ketergantungan tersebut. Kemudian, jalankan perintah berikut:\n\n```bash\ncomposer remove vendor/paket\n```\n\nIni akan menghapus pustaka dan semua ketergantungannya dari proyek Anda.\n\n### Manfaat Menggunakan Composer\n\nBerikut adalah beberapa manfaat menggunakan Composer:\n\n* Pengelolaan ketergantungan yang mudah\n* Pembaruan otomatis\n* Memastikan kompatibilitas pustaka\n* Dukungan komunitas yang luas\n\n### Kesimpulan\n\nComposer adalah alat yang sangat berharga bagi pengembang PHP karena menyediakan cara yang mudah dan efisien untuk mengelola ketergantungan. Dengan mengikuti panduan ini, Anda dapat mulai menggunakan Composer untuk mengoptimalkan proyek pengembangan PHP Anda."
+    },
+    {
+      "id_course": 5,
+      "id_title_course": 33,
+      "course": "## Tentang: JavaScript | DOM dan Event\n\n**DOM (Document Object Model)**\n\nDOM (Document Object Model) adalah representasi hierarkis dari sebuah dokumen HTML atau XML. Ini adalah antarmuka yang digunakan JavaScript untuk mengakses dan memodifikasi struktur dan konten dokumen.\n\nDengan DOM, Anda dapat melakukan berbagai hal, seperti:\n\n- Mengakses elemen HTML\n- Membuat dan menghapus elemen\n- Mengubah gaya dan atribut elemen\n- Menambahkan event listener\n\n**Event**\n\nEvent adalah kejadian yang terjadi pada halaman web, seperti klik mouse, gerakan mouse, atau pemuatan halaman. JavaScript memungkinkan Anda untuk merespons event ini dan melakukan tindakan yang sesuai.\n\nUntuk menambahkan event listener, Anda dapat menggunakan metode `addEventListener()` pada elemen DOM. Misalnya:\n\n```javascript\ndocument.getElementById(\"myButton\").addEventListener(\"click\", function() {\n  alert(\"Tombol diklik!\");\n});\n```\n\n**Contoh Penggunaan**\n\nBerikut adalah contoh bagaimana Anda dapat menggunakan DOM dan event untuk membuat halaman web interaktif:\n\n```javascript\n// Dapatkan elemen tombol\nconst button = document.getElementById(\"myButton\");\n\n// Tambahkan event listener ke tombol\nbutton.addEventListener(\"click\", function() {\n\n  // Ubah warna latar belakang elemen paragraf\n  const paragraph = document.getElementById(\"myParagraph\");\n  paragraph.style.backgroundColor = \"red\";\n\n  // Tambahkan teks baru ke elemen paragraf\n  paragraph.innerHTML = \"Tombol diklik!\";\n});\n```\n\n**Kesimpulan**\n\nDOM dan event adalah konsep penting dalam JavaScript yang memungkinkan Anda untuk berinteraksi dengan dan memodifikasi halaman web. Dengan memahaminya, Anda dapat membangun halaman web yang dinamis dan interaktif."
+    },
+    {
+      "id_course": 6,
+      "id_title_course": 30,
+      "course": "## Javascript: Pengendalian Alur\n\nPengendalian alur adalah teknik yang digunakan dalam pemrograman untuk mengontrol urutan eksekusi kode. Dalam JavaScript, terdapat beberapa struktur pengendalian alur, antara lain:\n\n### if...else Statements\n\nStruktur `if...else` memungkinkan Anda mengeksekusi blok kode hanya jika kondisi tertentu terpenuhi:\n\n```js\nif (kondisi) {\n  // Kode yang dieksekusi jika kondisi benar\n} else {\n  // Kode yang dieksekusi jika kondisi salah\n}\n```\n\n### switch...case Statements\n\nStruktur `switch...case` memungkinkan Anda mengeksekusi blok kode yang berbeda berdasarkan nilai sebuah variabel:\n\n```js\nswitch (variabel) {\n  case nilai1:\n    // Kode yang dieksekusi jika variabel sama dengan nilai1\n    break;\n  case nilai2:\n    // Kode yang dieksekusi jika variabel sama dengan nilai2\n    break;\n  default:\n    // Kode yang dieksekusi jika variabel tidak cocok dengan nilai apa pun\n    break;\n}\n```\n\n### for Loops\n\n`for` loop digunakan untuk mengulangi blok kode beberapa kali, sampai kondisi tertentu terpenuhi:\n\n```js\nfor (inisialisasi; kondisi; increment) {\n  // Kode yang dieksekusi setiap iterasi\n}\n```\n\n### while Loops\n\n`while` loop mengulangi blok kode selama kondisi tertentu terpenuhi:\n\n```js\nwhile (kondisi) {\n  // Kode yang dieksekusi setiap iterasi\n}\n```\n\n### do...while Loops\n\n`do...while` loop mengulangi blok kode setidaknya satu kali, kemudian mengulangi lagi jika kondisi tertentu terpenuhi:\n\n```js\ndo {\n  // Kode yang dieksekusi setiap iterasi\n} while (kondisi);\n```\n\n### Break dan Continue Statements\n\n* `break` statement mengakhiri loop atau switch case saat ini.\n* `continue` statement melewati sisa iterasi loop saat ini dan melanjutkan ke iterasi berikutnya.\n\nDengan memahami struktur pengendalian alur ini, Anda dapat mengontrol urutan eksekusi kode Anda secara efektif dan membuat program JavaScript yang lebih fleksibel dan dinamis."
     }
   ]
 }

@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const axios = require('axios');
 const path = require('path');
@@ -47,18 +48,22 @@ app.post('/search-course', async (req, res) => {
     }
 
     try {
-        const response = await axios.get(`https://api.i-as.dev/api/gemini/${encodeURIComponent(prompt + query)}`);
+        const apiKey = process.env.API_KEY;
+        const response = await axios.get(`https://api.i-as.dev/api/gemini/${apiKey}/${encodeURIComponent(prompt + query)}`);
         if (!response.data || !response.data.text) {
             throw new Error('Invalid response from AI API');
         }
 
         const recommendations = response.data.text.split('\n').filter(title => title.trim() !== '');
 
+        const existingIds = database.title_course.map(title => title.id_title_course);
+        const nextIdTitleCourse = existingIds.length ? Math.max(...existingIds) + 1 : 1;
+
         const id_query = database.query.length + 1;
         database.query.push({ id_query, query });
 
         const titles = recommendations.map((title, index) => ({
-            id_title_course: index + 1,
+            id_title_course: nextIdTitleCourse + index,
             title: `${query} | ${cleanMarkdown(title)}`
         }));
 
@@ -77,7 +82,6 @@ app.post('/search-course', async (req, res) => {
     }
 });
 
-
 app.post('/generate-content', async (req, res) => {
     const { title, query } = req.body;
 
@@ -85,7 +89,7 @@ app.post('/generate-content', async (req, res) => {
         return res.status(400).json({ error: 'Title is required and must be a string.' });
     }
 
-    const prompt = `Ajari saya dengan profesional tentang: `;
+    const prompt = `Buatkan artikel pembelajaran dengan teks makrdown, jika ada kode yang belum dibungkus backtick maka bungkus maksimal 600 kata Tentang: `;
     const database = readDatabase();
 
     const existingTitles = database.title_course.map(t => ({ title: t.title, id_title_course: t.id_title_course }));
@@ -110,7 +114,8 @@ app.post('/generate-content', async (req, res) => {
     }
 
     try {
-        const response = await axios.get(`https://api.i-as.dev/api/gemini/${encodeURIComponent(prompt + title)}`);
+		const apiKey = process.env.API_KEY;
+        const response = await axios.get(`https://api.i-as.dev/api/gemini/${apiKey}/${encodeURIComponent(prompt + title)}`);
         if (!response.data || !response.data.text) {
             throw new Error('Invalid response from AI API');
         }
