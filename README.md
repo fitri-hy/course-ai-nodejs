@@ -1,5 +1,3 @@
-<img src="./public/ss.png"/>
-
 # Aplikasi Berbasis WEB AI Course | Asisten Pengajaran Otomatis
 
 ## Latar Belakang
@@ -76,3 +74,5 @@ Menjalankan Aplikasi Setelah semua dependensi terinstal dan konfigurasi lingkung
 ```bash
 npm start
 ```
+
+<img src="./public/ss1.png"/>

@@ -11,6 +11,10 @@
     {
       "id_query": 3,
       "query": "PHP"
+    },
+    {
+      "id_query": 4,
+      "query": "Python"
     }
   ],
   "title_course": [
@@ -285,6 +289,66 @@
     {
       "id_title_course": 68,
       "title": "PHP | CodeIgniter"
+    },
+    {
+      "id_title_course": 69,
+      "title": "Python | Pembelajaran Python:"
+    },
+    {
+      "id_title_course": 70,
+      "title": "Python | - Pengantar Python"
+    },
+    {
+      "id_title_course": 71,
+      "title": "Python | - Tipe Data dan Struktur Data"
+    },
+    {
+      "id_title_course": 72,
+      "title": "Python | - Operator dan Ekspresi"
+    },
+    {
+      "id_title_course": 73,
+      "title": "Python | - Kontrol Alur"
+    },
+    {
+      "id_title_course": 74,
+      "title": "Python | - Fungsi"
+    },
+    {
+      "id_title_course": 75,
+      "title": "Python | - Kelas dan Objek"
+    },
+    {
+      "id_title_course": 76,
+      "title": "Python | - Pemrosesan File"
+    },
+    {
+      "id_title_course": 77,
+      "title": "Python | - Pengecualian"
+    },
+    {
+      "id_title_course": 78,
+      "title": "Python | - Pemrograman Berorientasi Objek"
+    },
+    {
+      "id_title_course": 79,
+      "title": "Python | - Pustaka Standar Python"
+    },
+    {
+      "id_title_course": 80,
+      "title": "Python | - Pengembangan Web dengan Python"
+    },
+    {
+      "id_title_course": 81,
+      "title": "Python | - Ilmu Data dengan Python"
+    },
+    {
+      "id_title_course": 82,
+      "title": "Python | - Pembelajaran Mesin dengan Python"
+    },
+    {
+      "id_title_course": 83,
+      "title": "Python | - Proyek Python"
     }
   ],
   "course": [
@@ -317,6 +381,11 @@
       "id_course": 6,
       "id_title_course": 30,
       "course": "## Javascript: Pengendalian Alur\n\nPengendalian alur adalah teknik yang digunakan dalam pemrograman untuk mengontrol urutan eksekusi kode. Dalam JavaScript, terdapat beberapa struktur pengendalian alur, antara lain:\n\n### if...else Statements\n\nStruktur `if...else` memungkinkan Anda mengeksekusi blok kode hanya jika kondisi tertentu terpenuhi:\n\n```js\nif (kondisi) {\n  // Kode yang dieksekusi jika kondisi benar\n} else {\n  // Kode yang dieksekusi jika kondisi salah\n}\n```\n\n### switch...case Statements\n\nStruktur `switch...case` memungkinkan Anda mengeksekusi blok kode yang berbeda berdasarkan nilai sebuah variabel:\n\n```js\nswitch (variabel) {\n  case nilai1:\n    // Kode yang dieksekusi jika variabel sama dengan nilai1\n    break;\n  case nilai2:\n    // Kode yang dieksekusi jika variabel sama dengan nilai2\n    break;\n  default:\n    // Kode yang dieksekusi jika variabel tidak cocok dengan nilai apa pun\n    break;\n}\n```\n\n### for Loops\n\n`for` loop digunakan untuk mengulangi blok kode beberapa kali, sampai kondisi tertentu terpenuhi:\n\n```js\nfor (inisialisasi; kondisi; increment) {\n  // Kode yang dieksekusi setiap iterasi\n}\n```\n\n### while Loops\n\n`while` loop mengulangi blok kode selama kondisi tertentu terpenuhi:\n\n```js\nwhile (kondisi) {\n  // Kode yang dieksekusi setiap iterasi\n}\n```\n\n### do...while Loops\n\n`do...while` loop mengulangi blok kode setidaknya satu kali, kemudian mengulangi lagi jika kondisi tertentu terpenuhi:\n\n```js\ndo {\n  // Kode yang dieksekusi setiap iterasi\n} while (kondisi);\n```\n\n### Break dan Continue Statements\n\n* `break` statement mengakhiri loop atau switch case saat ini.\n* `continue` statement melewati sisa iterasi loop saat ini dan melanjutkan ke iterasi berikutnya.\n\nDengan memahami struktur pengendalian alur ini, Anda dapat mengontrol urutan eksekusi kode Anda secara efektif dan membuat program JavaScript yang lebih fleksibel dan dinamis."
+    },
+    {
+      "id_course": 7,
+      "id_title_course": 71,
+      "course": "# Python: Tipe Data dan Struktur Data\n\n## Pendahuluan\n\nDalam pemrograman Python, tipe data mendefinisikan jenis nilai yang dapat disimpan dalam variabel. Struktur data, di sisi lain, adalah cara untuk mengatur dan mengelola data dalam memori. Memahami kedua konsep ini sangat penting untuk menulis kode Python yang efektif.\n\n## Tipe Data Python\n\nTipe data dasar dalam Python meliputi:\n\n- **Numerik**: integer (int), bilangan floating-point (float), dan kompleks (complex)\n- **String**: urutan karakter\n- **Boolean**: nilai logika (True atau False)\n- **None**: nilai khusus yang mewakili ketidakhadiran\n\n## Struktur Data Python\n\nStruktur data umum dalam Python meliputi:\n\n- **List**: koleksi item yang dipesan dan dapat dimodifikasi\n- **Tuple**: koleksi item yang dipesan dan tidak dapat dimodifikasi\n- **Set**: koleksi item unik dan tidak berurutan\n- **Dictionary**: koleksi pasangan kunci-nilai yang tidak terurut\n\n### Mengakses Elemen Struktur Data\n\nAnda dapat mengakses elemen dalam struktur data menggunakan pengindeksan atau metode.\n\n**Pengindeksan:**\n```python\nmy_list[0]  # Mengakses elemen pertama dari daftar\nmy_tuple[1]  # Mengakses elemen kedua dari tuple\n```\n\n**Metode:**\n```python\nmy_list.append(item)  # Menambahkan item ke daftar\nmy_set.remove(item)  # Menghapus item dari set\n```\n\n## Contoh\n\nBerikut adalah contoh penggunaan tipe data dan struktur data dalam Python:\n\n```python\n# Membuat tipe data\nname = \"John Doe\"  # String\nage = 25  # Integer\nis_student = True  # Boolean\nsubjects = [\"Matematika\", \"Fisika\", \"Kimia\"]  # Daftar\n```\n\n```python\n# Menggunakan struktur data\n# Mengakses elemen dari daftar menggunakan pengindeksan\nfirst_subject = subjects[0]\n\n# Menambahkan item ke daftar menggunakan metode\nsubjects.append(\"Biologi\")\n\n# Menghapus item dari set menggunakan metode\nsubjects.remove(\"Fisika\")\n```\n\n## Kesimpulan\n\nMemahami tipe data dan struktur data sangat penting dalam pemrograman Python. Tipe data menentukan jenis nilai yang dapat disimpan dalam variabel, sementara struktur data menyediakan cara untuk mengatur dan mengelola data dalam memori. Menguasai konsep-konsep ini memungkinkan Anda menulis kode yang efisien, terorganisir, dan dapat dipelihara."
     }
   ]
 }
